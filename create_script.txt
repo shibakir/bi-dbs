@@ -1,0 +1,192 @@
+-- odeberu pokud existuje funkce na oodebrání tabulek a sekvencí
+DROP FUNCTION IF EXISTS remove_all();
+
+-- vytvořím funkci která odebere tabulky a sekvence
+-- chcete také umět psát PLSQL? Zapište si předmět BI-SQL ;-)
+CREATE or replace FUNCTION remove_all() RETURNS void AS $$
+DECLARE
+    rec RECORD;
+    cmd text;
+BEGIN
+    cmd := '';
+
+    FOR rec IN SELECT
+            'DROP SEQUENCE ' || quote_ident(n.nspname) || '.'
+                || quote_ident(c.relname) || ' CASCADE;' AS name
+        FROM
+            pg_catalog.pg_class AS c
+        LEFT JOIN
+            pg_catalog.pg_namespace AS n
+        ON
+            n.oid = c.relnamespace
+        WHERE
+            relkind = 'S' AND
+            n.nspname NOT IN ('pg_catalog', 'pg_toast') AND
+            pg_catalog.pg_table_is_visible(c.oid)
+    LOOP
+        cmd := cmd || rec.name;
+    END LOOP;
+
+    FOR rec IN SELECT
+            'DROP TABLE ' || quote_ident(n.nspname) || '.'
+                || quote_ident(c.relname) || ' CASCADE;' AS name
+        FROM
+            pg_catalog.pg_class AS c
+        LEFT JOIN
+            pg_catalog.pg_namespace AS n
+        ON
+            n.oid = c.relnamespace WHERE relkind = 'r' AND
+            n.nspname NOT IN ('pg_catalog', 'pg_toast') AND
+            pg_catalog.pg_table_is_visible(c.oid)
+    LOOP
+        cmd := cmd || rec.name;
+    END LOOP;
+
+    EXECUTE cmd;
+    RETURN;
+END;
+$$ LANGUAGE plpgsql;
+-- zavolám funkci co odebere tabulky a sekvence - Mohl bych dropnout celé schéma a znovu jej vytvořit, použíjeme však PLSQL
+select remove_all();
+
+-- Remove conflicting tables
+-- DROP TABLE IF EXISTS adresa CASCADE;
+-- DROP TABLE IF EXISTS clenstvi_ve_studentskem_svazu CASCADE;
+-- DROP TABLE IF EXISTS externi_vedouci CASCADE;
+-- DROP TABLE IF EXISTS game_pass CASCADE;
+-- DROP TABLE IF EXISTS herna CASCADE;
+-- DROP TABLE IF EXISTS hra CASCADE;
+-- DROP TABLE IF EXISTS kolej CASCADE;
+-- DROP TABLE IF EXISTS konzole CASCADE;
+-- DROP TABLE IF EXISTS nabytek CASCADE;
+-- DROP TABLE IF EXISTS osobnost CASCADE;
+-- DROP TABLE IF EXISTS student_administrator CASCADE;
+-- DROP TABLE IF EXISTS vybaveni CASCADE;
+-- DROP TABLE IF EXISTS osobnost_game_pass CASCADE;
+-- DROP TABLE IF EXISTS student_administrator_herna CASCADE;
+-- End of removing
+
+CREATE TABLE adresa (
+    id_adresa SERIAL NOT NULL,
+    mesto VARCHAR(256) NOT NULL,
+    ulice VARCHAR(256) NOT NULL,
+    cislo_orientacni INTEGER NOT NULL
+);
+ALTER TABLE adresa ADD CONSTRAINT pk_adresa PRIMARY KEY (id_adresa);
+
+CREATE TABLE clenstvi_ve_studentskem_svazu (
+    id_clenstvi SERIAL NOT NULL,
+    id_osobnost INTEGER NOT NULL,
+    od_datum DATE NOT NULL,
+    do_datum DATE NOT NULL
+);
+ALTER TABLE clenstvi_ve_studentskem_svazu ADD CONSTRAINT pk_clenstvi_ve_studentskem_svaz PRIMARY KEY (id_clenstvi);
+
+CREATE TABLE externi_vedouci (
+    id_externi_vedouci SERIAL NOT NULL,
+    jmeno VARCHAR(256) NOT NULL,
+    prijmeni VARCHAR(256) NOT NULL,
+    datum_narozeni DATE
+);
+ALTER TABLE externi_vedouci ADD CONSTRAINT pk_externi_vedouci PRIMARY KEY (id_externi_vedouci);
+
+CREATE TABLE game_pass (
+    id_game_pass SERIAL NOT NULL,
+    id_herna INTEGER NOT NULL,
+    od_datum DATE NOT NULL,
+    do_datum DATE NOT NULL
+);
+ALTER TABLE game_pass ADD CONSTRAINT pk_game_pass PRIMARY KEY (id_game_pass);
+
+CREATE TABLE herna (
+    id_herna SERIAL NOT NULL,
+    id_kolej INTEGER NOT NULL,
+    nazev VARCHAR(256) NOT NULL,
+    kapacita INTEGER NOT NULL
+);
+ALTER TABLE herna ADD CONSTRAINT pk_herna PRIMARY KEY (id_herna);
+
+CREATE TABLE hra (
+    id_vybaveni INTEGER NOT NULL,
+    nazev VARCHAR(256) NOT NULL,
+    zanr VARCHAR(256) NOT NULL
+);
+ALTER TABLE hra ADD CONSTRAINT pk_hra PRIMARY KEY (id_vybaveni);
+
+CREATE TABLE kolej (
+    id_kolej SERIAL NOT NULL,
+    id_adresa INTEGER NOT NULL,
+    nazev VARCHAR(256) NOT NULL
+);
+ALTER TABLE kolej ADD CONSTRAINT pk_kolej PRIMARY KEY (id_kolej);
+
+CREATE TABLE konzole (
+    id_vybaveni INTEGER NOT NULL,
+    model VARCHAR(256) NOT NULL
+);
+ALTER TABLE konzole ADD CONSTRAINT pk_konzole PRIMARY KEY (id_vybaveni);
+
+CREATE TABLE nabytek (
+    id_vybaveni INTEGER NOT NULL,
+    nazev VARCHAR(256) NOT NULL,
+    stav INTEGER NOT NULL
+);
+ALTER TABLE nabytek ADD CONSTRAINT pk_nabytek PRIMARY KEY (id_vybaveni);
+
+CREATE TABLE osobnost (
+    id_osobnost SERIAL NOT NULL,
+    jmeno VARCHAR(256) NOT NULL,
+    prijmeni VARCHAR(256) NOT NULL,
+    pohlavi VARCHAR(256),
+    datum_narozeni DATE,
+    vlastni_poruseni INTEGER NOT NULL
+);
+ALTER TABLE osobnost ADD CONSTRAINT pk_osobnost PRIMARY KEY (id_osobnost);
+
+CREATE TABLE student_administrator (
+    id_clenstvi INTEGER NOT NULL,
+    staz INTEGER
+);
+ALTER TABLE student_administrator ADD CONSTRAINT pk_student_administrator PRIMARY KEY (id_clenstvi);
+
+CREATE TABLE vybaveni (
+    id_vybaveni SERIAL NOT NULL,
+    id_herna INTEGER NOT NULL
+);
+ALTER TABLE vybaveni ADD CONSTRAINT pk_vybaveni PRIMARY KEY (id_vybaveni);
+
+CREATE TABLE osobnost_game_pass (
+    id_osobnost INTEGER NOT NULL,
+    id_game_pass INTEGER NOT NULL
+);
+ALTER TABLE osobnost_game_pass ADD CONSTRAINT pk_osobnost_game_pass PRIMARY KEY (id_osobnost, id_game_pass);
+
+CREATE TABLE student_administrator_herna (
+    id_clenstvi INTEGER NOT NULL,
+    id_herna INTEGER NOT NULL
+);
+ALTER TABLE student_administrator_herna ADD CONSTRAINT pk_student_administrator_herna PRIMARY KEY (id_clenstvi, id_herna);
+
+ALTER TABLE clenstvi_ve_studentskem_svazu ADD CONSTRAINT fk_clenstvi_ve_studentskem_svaz FOREIGN KEY (id_osobnost) REFERENCES osobnost (id_osobnost) ON DELETE CASCADE;
+
+ALTER TABLE game_pass ADD CONSTRAINT fk_game_pass_herna FOREIGN KEY (id_herna) REFERENCES herna (id_herna) ON DELETE CASCADE;
+
+ALTER TABLE herna ADD CONSTRAINT fk_herna_kolej FOREIGN KEY (id_kolej) REFERENCES kolej (id_kolej) ON DELETE CASCADE;
+
+ALTER TABLE hra ADD CONSTRAINT fk_hra_vybaveni FOREIGN KEY (id_vybaveni) REFERENCES vybaveni (id_vybaveni) ON DELETE CASCADE;
+
+ALTER TABLE kolej ADD CONSTRAINT fk_kolej_adresa FOREIGN KEY (id_adresa) REFERENCES adresa (id_adresa) ON DELETE CASCADE;
+
+ALTER TABLE konzole ADD CONSTRAINT fk_konzole_vybaveni FOREIGN KEY (id_vybaveni) REFERENCES vybaveni (id_vybaveni) ON DELETE CASCADE;
+
+ALTER TABLE nabytek ADD CONSTRAINT fk_nabytek_vybaveni FOREIGN KEY (id_vybaveni) REFERENCES vybaveni (id_vybaveni) ON DELETE CASCADE;
+
+ALTER TABLE student_administrator ADD CONSTRAINT fk_student_administrator_clenst FOREIGN KEY (id_clenstvi) REFERENCES clenstvi_ve_studentskem_svazu (id_clenstvi) ON DELETE CASCADE;
+
+ALTER TABLE vybaveni ADD CONSTRAINT fk_vybaveni_herna FOREIGN KEY (id_herna) REFERENCES herna (id_herna) ON DELETE CASCADE;
+
+ALTER TABLE osobnost_game_pass ADD CONSTRAINT fk_osobnost_game_pass_osobnost FOREIGN KEY (id_osobnost) REFERENCES osobnost (id_osobnost) ON DELETE CASCADE;
+ALTER TABLE osobnost_game_pass ADD CONSTRAINT fk_osobnost_game_pass_game_pass FOREIGN KEY (id_game_pass) REFERENCES game_pass (id_game_pass) ON DELETE CASCADE;
+
+ALTER TABLE student_administrator_herna ADD CONSTRAINT fk_student_administrator_herna_ FOREIGN KEY (id_clenstvi) REFERENCES student_administrator (id_clenstvi) ON DELETE CASCADE;
+ALTER TABLE student_administrator_herna ADD CONSTRAINT fk_student_administrator_hern_1 FOREIGN KEY (id_herna) REFERENCES herna (id_herna) ON DELETE CASCADE;
