@@ -46,6 +46,18 @@ Omezení:
 
 **Adresa** má unikátní *ID*, *mesto*, *ulici* a *cislo orientacni*. Poznamka: Budeme předpokládat, že na stejné adrese se může nacházet několik kolejí (to znamená, že "Strahov 3" a "Strahov 8" musí být různé koleje, i když mají stejnou adresu (v mém světě)). 
 Muzeme mit v databazi adresy, do kterych nepatri zadna kolej. 
-_______________________
 
 Předpokládáné entity:  Herna, Vybavení, Nábytek, Konzole, Hra, Externí vedoucí, Osobnost,  Game Pass, Členství ve studentském svazu, Student-administrátor, Kolej apod.
+
+_______________________
+
+
+**Diskuse smyček:**
+
+
+Mam smycku **Osobnost** - **Clenstvi_ve_studentskem_svazu** - **Student_administrator** - **Herna** - **Game_pass** - **Osobnost** .
+
+To znamena, ze **Osobnost** muze mit **Clenstvi_ve_studentskem_svazu**, ktere navic predpoklada **Student_administrator**a v nejake **Herne**, ve ktere jsou zaregistrovane **Game Pass**y vcetne jeho. Ale my vime, ze **Student_administrator** nejake **Herny**  automaticky ma **Game Pass** v te **Herne** (to vime z popisu).
+
+Navic k tomu reknu, ze **Osobnost** nemusi mit **Clenstvi_ve_studentskem_svazu**, aby mela **Game Pass**.
+
