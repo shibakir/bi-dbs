@@ -1,0 +1,489 @@
+{
+  "entities": [
+    {
+      "name": "Adresa",
+      "parent": null,
+      "attr": [
+        {
+          "name": "id_adresa",
+          "primary": true,
+          "unique": false,
+          "nullable": false,
+          "type": null
+        },
+        {
+          "name": "cislo_orientacni",
+          "primary": false,
+          "unique": false,
+          "nullable": false,
+          "type": null
+        },
+        {
+          "name": "mesto",
+          "primary": false,
+          "unique": false,
+          "nullable": false,
+          "type": null
+        },
+        {
+          "name": "ulice",
+          "primary": false,
+          "unique": false,
+          "nullable": false,
+          "type": null
+        }
+      ]
+    },
+    {
+      "name": "Clenstvi_ve_studentskem_svazu",
+      "parent": null,
+      "attr": [
+        {
+          "name": "id_clenstvi",
+          "primary": true,
+          "unique": false,
+          "nullable": false,
+          "type": null
+        },
+        {
+          "name": "do",
+          "primary": false,
+          "unique": false,
+          "nullable": false,
+          "type": null
+        },
+        {
+          "name": "od",
+          "primary": false,
+          "unique": false,
+          "nullable": false,
+          "type": null
+        }
+      ]
+    },
+    {
+      "name": "Externi_vedouci",
+      "parent": null,
+      "attr": [
+        {
+          "name": "id_externi_vedouci",
+          "primary": true,
+          "unique": false,
+          "nullable": false,
+          "type": null
+        },
+        {
+          "name": "jmeno",
+          "primary": false,
+          "unique": false,
+          "nullable": false,
+          "type": null
+        },
+        {
+          "name": "prijmeni",
+          "primary": false,
+          "unique": false,
+          "nullable": false,
+          "type": null
+        },
+        {
+          "name": "datum_narozeni",
+          "primary": false,
+          "unique": false,
+          "nullable": true,
+          "type": null
+        }
+      ]
+    },
+    {
+      "name": "Game_pass",
+      "parent": null,
+      "attr": [
+        {
+          "name": "id_game_pass",
+          "primary": true,
+          "unique": false,
+          "nullable": false,
+          "type": null
+        },
+        {
+          "name": "do",
+          "primary": false,
+          "unique": false,
+          "nullable": false,
+          "type": null
+        },
+        {
+          "name": "od",
+          "primary": false,
+          "unique": false,
+          "nullable": false,
+          "type": null
+        }
+      ]
+    },
+    {
+      "name": "Herna",
+      "parent": null,
+      "attr": [
+        {
+          "name": "id_herna",
+          "primary": true,
+          "unique": false,
+          "nullable": false,
+          "type": null
+        },
+        {
+          "name": "kapacita",
+          "primary": false,
+          "unique": false,
+          "nullable": false,
+          "type": null
+        },
+        {
+          "name": "nazev",
+          "primary": false,
+          "unique": false,
+          "nullable": false,
+          "type": null
+        }
+      ]
+    },
+    {
+      "name": "Hra",
+      "parent": null,
+      "attr": [
+        {
+          "name": "nazev",
+          "primary": false,
+          "unique": false,
+          "nullable": false,
+          "type": null
+        },
+        {
+          "name": "zanr",
+          "primary": false,
+          "unique": false,
+          "nullable": false,
+          "type": null
+        }
+      ]
+    },
+    {
+      "name": "Kolej",
+      "parent": null,
+      "attr": [
+        {
+          "name": "id_kolej",
+          "primary": true,
+          "unique": false,
+          "nullable": false,
+          "type": null
+        },
+        {
+          "name": "nazev",
+          "primary": false,
+          "unique": false,
+          "nullable": false,
+          "type": null
+        }
+      ]
+    },
+    {
+      "name": "Konzole",
+      "parent": null,
+      "attr": [
+        {
+          "name": "model",
+          "primary": false,
+          "unique": false,
+          "nullable": false,
+          "type": null
+        }
+      ]
+    },
+    {
+      "name": "Nabytek",
+      "parent": null,
+      "attr": [
+        {
+          "name": "nazev",
+          "primary": false,
+          "unique": false,
+          "nullable": false,
+          "type": null
+        },
+        {
+          "name": "stav",
+          "primary": false,
+          "unique": false,
+          "nullable": false,
+          "type": null
+        }
+      ]
+    },
+    {
+      "name": "Osobnost",
+      "parent": null,
+      "attr": [
+        {
+          "name": "id_osobnost",
+          "primary": true,
+          "unique": false,
+          "nullable": false,
+          "type": null
+        },
+        {
+          "name": "jmeno",
+          "primary": false,
+          "unique": false,
+          "nullable": false,
+          "type": null
+        },
+        {
+          "name": "prijmeni",
+          "primary": false,
+          "unique": false,
+          "nullable": false,
+          "type": null
+        },
+        {
+          "name": "vlastni_poruseni",
+          "primary": false,
+          "unique": false,
+          "nullable": false,
+          "type": null
+        },
+        {
+          "name": "datum_narozeni",
+          "primary": false,
+          "unique": false,
+          "nullable": true,
+          "type": null
+        },
+        {
+          "name": "pohlavi",
+          "primary": false,
+          "unique": false,
+          "nullable": true,
+          "type": null
+        }
+      ]
+    },
+    {
+      "name": "Student_administrator",
+      "parent": null,
+      "attr": [
+        {
+          "name": "staz",
+          "primary": false,
+          "unique": false,
+          "nullable": true,
+          "type": null
+        }
+      ]
+    },
+    {
+      "name": "Vybaveni",
+      "parent": null,
+      "attr": [
+        {
+          "name": "id_vybaveni",
+          "primary": true,
+          "unique": false,
+          "nullable": false,
+          "type": null
+        }
+      ]
+    }
+  ],
+  "relations": [
+    [
+      {
+        "entity": "Herna",
+        "identifying": false,
+        "optional": true,
+        "cardinality": 1,
+        "xor": null
+      },
+      {
+        "entity": "Game_pass",
+        "identifying": false,
+        "optional": false,
+        "cardinality": 0,
+        "xor": null
+      }
+    ],
+    [
+      {
+        "entity": "Kolej",
+        "identifying": false,
+        "optional": false,
+        "cardinality": 0,
+        "xor": null
+      },
+      {
+        "entity": "Adresa",
+        "identifying": false,
+        "optional": true,
+        "cardinality": 1,
+        "xor": null
+      }
+    ],
+    [
+      {
+        "entity": "Kolej",
+        "identifying": false,
+        "optional": true,
+        "cardinality": 1,
+        "xor": null
+      },
+      {
+        "entity": "Herna",
+        "identifying": false,
+        "optional": false,
+        "cardinality": 0,
+        "xor": null
+      }
+    ],
+    [
+      {
+        "entity": "Osobnost",
+        "identifying": false,
+        "optional": true,
+        "cardinality": 0,
+        "xor": null
+      },
+      {
+        "entity": "Game_pass",
+        "identifying": false,
+        "optional": false,
+        "cardinality": 0,
+        "xor": null
+      }
+    ],
+    [
+      {
+        "entity": "Osobnost",
+        "identifying": false,
+        "optional": true,
+        "cardinality": 1,
+        "xor": null
+      },
+      {
+        "entity": "Clenstvi_ve_studentskem_svazu",
+        "identifying": false,
+        "optional": false,
+        "cardinality": 0,
+        "xor": null
+      }
+    ],
+    [
+      {
+        "entity": "Student_administrator",
+        "identifying": false,
+        "optional": false,
+        "cardinality": 0,
+        "xor": null
+      },
+      {
+        "entity": "Herna",
+        "identifying": false,
+        "optional": true,
+        "cardinality": 0,
+        "xor": null
+      }
+    ],
+    [
+      {
+        "entity": "Student_administrator",
+        "identifying": true,
+        "optional": false,
+        "cardinality": 1,
+        "xor": null
+      },
+      {
+        "entity": "Clenstvi_ve_studentskem_svazu",
+        "identifying": false,
+        "optional": true,
+        "cardinality": 1,
+        "xor": null
+      }
+    ],
+    [
+      {
+        "entity": "Vybaveni",
+        "identifying": false,
+        "optional": false,
+        "cardinality": 0,
+        "xor": null
+      },
+      {
+        "entity": "Herna",
+        "identifying": false,
+        "optional": true,
+        "cardinality": 1,
+        "xor": null
+      }
+    ],
+    [
+      {
+        "entity": "Vybaveni",
+        "identifying": false,
+        "optional": true,
+        "cardinality": 1,
+        "xor": "72764d04992db14072764d04acdc53d9"
+      },
+      {
+        "entity": "Hra",
+        "identifying": true,
+        "optional": false,
+        "cardinality": 1,
+        "xor": null
+      }
+    ],
+    [
+      {
+        "entity": "Vybaveni",
+        "identifying": false,
+        "optional": true,
+        "cardinality": 1,
+        "xor": "72764d04992db14072764d04acdc53d9"
+      },
+      {
+        "entity": "Nabytek",
+        "identifying": true,
+        "optional": false,
+        "cardinality": 1,
+        "xor": null
+      }
+    ],
+    [
+      {
+        "entity": "Vybaveni",
+        "identifying": false,
+        "optional": true,
+        "cardinality": 1,
+        "xor": null
+      },
+      {
+        "entity": "Konzole",
+        "identifying": true,
+        "optional": false,
+        "cardinality": 1,
+        "xor": null
+      }
+    ]
+  ],
+  "notes": [
+    {
+      "text": "Adreda nemusi patrit zadne koleji. \novsem u kazde koleje musime vedet\njeji adresu."
+    },
+    {
+      "text": "IO1: Pocet Game Passu spojenych\ns nejakou hernou nemuze prekrocit\nkapacitu te herny."
+    },
+    {
+      "text": "IO2: Pocet heren, ktere patri do nejake\nkoleji, nemuze byt vetsi nez 4."
+    }
+  ]
+}

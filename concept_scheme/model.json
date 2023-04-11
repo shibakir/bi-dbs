@@ -1,0 +1,929 @@
+{
+  "entities": [
+    {
+      "name": "Adresa",
+      "parent": null,
+      "attr": [
+        {
+          "name": "id_adresa",
+          "primary": true,
+          "unique": false,
+          "nullable": false,
+          "type": null
+        },
+        {
+          "name": "mesto",
+          "primary": false,
+          "unique": false,
+          "nullable": false,
+          "type": null
+        },
+        {
+          "name": "ulice",
+          "primary": false,
+          "unique": false,
+          "nullable": false,
+          "type": null
+        },
+        {
+          "name": "cislo_orientacni",
+          "primary": false,
+          "unique": false,
+          "nullable": false,
+          "type": null
+        }
+      ],
+      "transform": {
+        "x": 595.4805166381961,
+        "y": 907.560187583848,
+        "width": 138.63636363636363,
+        "height": 98.01170560498224
+      }
+    },
+    {
+      "name": "Clenstvi_ve_studentskem_svazu",
+      "parent": null,
+      "attr": [
+        {
+          "name": "id_clenstvi",
+          "primary": true,
+          "unique": false,
+          "nullable": false,
+          "type": null
+        },
+        {
+          "name": "od",
+          "primary": false,
+          "unique": false,
+          "nullable": false,
+          "type": null
+        },
+        {
+          "name": "do",
+          "primary": false,
+          "unique": false,
+          "nullable": false,
+          "type": null
+        }
+      ],
+      "transform": {
+        "x": 377.68181533949485,
+        "y": 451.4909298724125,
+        "width": 231.046875,
+        "height": 70.60002517700195
+      }
+    },
+    {
+      "name": "Externi_vedouci",
+      "parent": null,
+      "attr": [
+        {
+          "name": "id_externi_vedouci",
+          "primary": true,
+          "unique": false,
+          "nullable": false,
+          "type": null
+        },
+        {
+          "name": "jmeno",
+          "primary": false,
+          "unique": false,
+          "nullable": false,
+          "type": null
+        },
+        {
+          "name": "prijmeni",
+          "primary": false,
+          "unique": false,
+          "nullable": false,
+          "type": null
+        },
+        {
+          "name": "datum_narozeni",
+          "primary": false,
+          "unique": false,
+          "nullable": true,
+          "type": null
+        }
+      ],
+      "transform": {
+        "x": 515.5032439109234,
+        "y": 731.6099743125458,
+        "width": 161.25000000000006,
+        "height": 97.96191887628447
+      }
+    },
+    {
+      "name": "Game_pass",
+      "parent": null,
+      "attr": [
+        {
+          "name": "id_game_pass",
+          "primary": true,
+          "unique": false,
+          "nullable": false,
+          "type": null
+        },
+        {
+          "name": "od",
+          "primary": false,
+          "unique": false,
+          "nullable": false,
+          "type": null
+        },
+        {
+          "name": "do",
+          "primary": false,
+          "unique": false,
+          "nullable": false,
+          "type": null
+        }
+      ],
+      "transform": {
+        "x": 113.82236234187212,
+        "y": 613.939268109916,
+        "width": 150,
+        "height": 79.6326250789142
+      }
+    },
+    {
+      "name": "Herna",
+      "parent": null,
+      "attr": [
+        {
+          "name": "id_herna",
+          "primary": true,
+          "unique": false,
+          "nullable": false,
+          "type": null
+        },
+        {
+          "name": "nazev",
+          "primary": false,
+          "unique": false,
+          "nullable": false,
+          "type": null
+        },
+        {
+          "name": "kapacita",
+          "primary": false,
+          "unique": false,
+          "nullable": false,
+          "type": null
+        }
+      ],
+      "transform": {
+        "x": 298.3669416924484,
+        "y": 750.654586834734,
+        "width": 163.27285459638387,
+        "height": 83.58396284823687
+      }
+    },
+    {
+      "name": "Hra",
+      "parent": null,
+      "attr": [
+        {
+          "name": "nazev",
+          "primary": false,
+          "unique": false,
+          "nullable": false,
+          "type": null
+        },
+        {
+          "name": "zanr",
+          "primary": false,
+          "unique": false,
+          "nullable": false,
+          "type": null
+        }
+      ],
+      "transform": {
+        "x": 116.25324391092323,
+        "y": 910.9075933601647,
+        "width": 112.50000000000017,
+        "height": 71.66429982866555
+      }
+    },
+    {
+      "name": "Kolej",
+      "parent": null,
+      "attr": [
+        {
+          "name": "id_kolej",
+          "primary": true,
+          "unique": false,
+          "nullable": false,
+          "type": null
+        },
+        {
+          "name": "nazev",
+          "primary": false,
+          "unique": false,
+          "nullable": false,
+          "type": null
+        }
+      ],
+      "transform": {
+        "x": 302.59848200616153,
+        "y": 903.812358443841,
+        "width": 158.74999999999997,
+        "height": 91.7595347449892
+      }
+    },
+    {
+      "name": "Konzole",
+      "parent": null,
+      "attr": [
+        {
+          "name": "model",
+          "primary": false,
+          "unique": false,
+          "nullable": false,
+          "type": null
+        }
+      ],
+      "transform": {
+        "x": -50.85389894621936,
+        "y": 899.6814028839742,
+        "width": 109.23915693705452,
+        "height": 84.89049030485603
+      }
+    },
+    {
+      "name": "Nabytek",
+      "parent": null,
+      "attr": [
+        {
+          "name": "nazev",
+          "primary": false,
+          "unique": false,
+          "nullable": false,
+          "type": null
+        },
+        {
+          "name": "stav",
+          "primary": false,
+          "unique": false,
+          "nullable": false,
+          "type": null
+        }
+      ],
+      "transform": {
+        "x": -100.35389894621946,
+        "y": 740.7528314554029,
+        "width": 110.23657934180609,
+        "height": 74.81906173342736
+      }
+    },
+    {
+      "name": "Osobnost",
+      "parent": null,
+      "attr": [
+        {
+          "name": "id_osobnost",
+          "primary": true,
+          "unique": false,
+          "nullable": false,
+          "type": null
+        },
+        {
+          "name": "jmeno",
+          "primary": false,
+          "unique": false,
+          "nullable": false,
+          "type": null
+        },
+        {
+          "name": "prijmeni",
+          "primary": false,
+          "unique": false,
+          "nullable": false,
+          "type": null
+        },
+        {
+          "name": "pohlavi",
+          "primary": false,
+          "unique": false,
+          "nullable": true,
+          "type": null
+        },
+        {
+          "name": "datum_narozeni",
+          "primary": false,
+          "unique": false,
+          "nullable": true,
+          "type": null
+        },
+        {
+          "name": "vlastni_poruseni",
+          "primary": false,
+          "unique": false,
+          "nullable": false,
+          "type": null
+        }
+      ],
+      "transform": {
+        "x": 107.44372010139966,
+        "y": 403.0385489200314,
+        "width": 169.99999999999997,
+        "height": 127.20000076293945
+      }
+    },
+    {
+      "name": "Student_administrator",
+      "parent": null,
+      "attr": [
+        {
+          "name": "staz",
+          "primary": false,
+          "unique": false,
+          "nullable": true,
+          "type": null
+        }
+      ],
+      "transform": {
+        "x": 411.1103867680663,
+        "y": 590.6218822533649,
+        "width": 164.99999999999997,
+        "height": 57.61666742960597
+      }
+    },
+    {
+      "name": "Vybaveni",
+      "parent": null,
+      "attr": [
+        {
+          "name": "id_vybaveni",
+          "primary": true,
+          "unique": false,
+          "nullable": false,
+          "type": null
+        }
+      ],
+      "transform": {
+        "x": 121.65648991939617,
+        "y": 740.8130555450383,
+        "width": 103.7550172968492,
+        "height": 84.70588235294119
+      }
+    }
+  ],
+  "relations": [
+    [
+      {
+        "entity": "Herna",
+        "identifying": false,
+        "optional": true,
+        "cardinality": 1,
+        "xor": null,
+        "name": null,
+        "transform": {
+          "anchor": {
+            "x": 350.8460980020227,
+            "y": 750.654586834734,
+            "edge": 0
+          },
+          "points": [
+            {
+              "x": 321.8460980020227,
+              "y": 708.9465682588525
+            }
+          ],
+          "manual": false
+        }
+      },
+      {
+        "entity": "Game_pass",
+        "identifying": false,
+        "optional": false,
+        "cardinality": 0,
+        "xor": null,
+        "name": "jsou registrovane v",
+        "transform": {
+          "anchor": {
+            "x": 263.8223623418721,
+            "y": 659.8385519717892,
+            "edge": 1
+          },
+          "points": [
+            {
+              "x": 292.8460980020227,
+              "y": 678.2385496829709
+            },
+            {
+              "x": 321.8460980020227,
+              "y": 708.9465682588525
+            }
+          ],
+          "manual": true
+        }
+      }
+    ],
+    [
+      {
+        "entity": "Kolej",
+        "identifying": false,
+        "optional": false,
+        "cardinality": 0,
+        "xor": null,
+        "name": "je na",
+        "transform": {
+          "anchor": {
+            "x": 461.3484820061615,
+            "y": 959.5718931888302,
+            "edge": 1
+          },
+          "points": [
+            {
+              "x": 527.8460980020227,
+              "y": 959.5718931888302
+            },
+            {
+              "x": 545.6633073201094,
+              "y": 959.5787291263302
+            }
+          ],
+          "manual": true
+        }
+      },
+      {
+        "entity": "Adresa",
+        "identifying": false,
+        "optional": true,
+        "cardinality": 1,
+        "xor": null,
+        "name": null,
+        "transform": {
+          "anchor": {
+            "x": 595.4805166381961,
+            "y": 959.5855650638302,
+            "edge": 3
+          },
+          "points": [
+            {
+              "x": 587.8460980020227,
+              "y": 959.5855650638302
+            },
+            {
+              "x": 563.4805166381961,
+              "y": 959.5855650638302
+            },
+            {
+              "x": 545.6633073201094,
+              "y": 959.5787291263302
+            }
+          ],
+          "manual": true
+        }
+      }
+    ],
+    [
+      {
+        "entity": "Kolej",
+        "identifying": false,
+        "optional": true,
+        "cardinality": 1,
+        "xor": null,
+        "name": null,
+        "transform": {
+          "anchor": {
+            "x": 379.842204272246,
+            "y": 903.812358443841,
+            "edge": 0
+          },
+          "points": [
+            {
+              "x": 379.92278663144316,
+              "y": 869.025454063406
+            }
+          ],
+          "manual": false
+        }
+      },
+      {
+        "entity": "Herna",
+        "identifying": false,
+        "optional": false,
+        "cardinality": 0,
+        "xor": null,
+        "name": "je na",
+        "transform": {
+          "anchor": {
+            "x": 380.0033689906403,
+            "y": 834.2385496829709,
+            "edge": 2
+          },
+          "points": [
+            {
+              "x": 379.92278663144316,
+              "y": 869.025454063406
+            }
+          ],
+          "manual": false
+        }
+      }
+    ],
+    [
+      {
+        "entity": "Osobnost",
+        "identifying": false,
+        "optional": true,
+        "cardinality": 0,
+        "xor": null,
+        "name": "muze mit",
+        "transform": {
+          "anchor": {
+            "x": 188.87332312677108,
+            "y": 530.2385496829709,
+            "edge": 2
+          },
+          "points": [
+            {
+              "x": 188.8478427343216,
+              "y": 572.0889088964434
+            }
+          ],
+          "manual": false
+        }
+      },
+      {
+        "entity": "Game_pass",
+        "identifying": false,
+        "optional": false,
+        "cardinality": 0,
+        "xor": null,
+        "name": null,
+        "transform": {
+          "anchor": {
+            "x": 188.82236234187212,
+            "y": 613.939268109916,
+            "edge": 0
+          },
+          "points": [
+            {
+              "x": 188.8478427343216,
+              "y": 572.0889088964434
+            }
+          ],
+          "manual": false
+        }
+      }
+    ],
+    [
+      {
+        "entity": "Osobnost",
+        "identifying": false,
+        "optional": true,
+        "cardinality": 1,
+        "xor": null,
+        "name": "muze mit",
+        "transform": {
+          "anchor": {
+            "x": 277.44372010139966,
+            "y": 485.95521558669816,
+            "edge": 1
+          },
+          "points": [
+            {
+              "x": 303.36831818973985,
+              "y": 485.95521558669816
+            },
+            {
+              "x": 335.02506676461735,
+              "y": 485.95521558669816
+            }
+          ],
+          "manual": true
+        }
+      },
+      {
+        "entity": "Clenstvi_ve_studentskem_svazu",
+        "identifying": false,
+        "optional": false,
+        "cardinality": 0,
+        "xor": null,
+        "name": null,
+        "transform": {
+          "anchor": {
+            "x": 377.68181533949485,
+            "y": 485.95521558669816,
+            "edge": 3
+          },
+          "points": [
+            {
+              "x": 335.02506676461735,
+              "y": 485.95521558669816
+            }
+          ],
+          "manual": false
+        }
+      }
+    ],
+    [
+      {
+        "entity": "Student_administrator",
+        "identifying": false,
+        "optional": false,
+        "cardinality": 0,
+        "xor": null,
+        "name": "spravuje",
+        "transform": {
+          "anchor": {
+            "x": 493.6103867680663,
+            "y": 648.2385496829709,
+            "edge": 2
+          },
+          "points": [
+            {
+              "x": 447.4266669567469,
+              "y": 699.4465682588525
+            }
+          ],
+          "manual": false
+        }
+      },
+      {
+        "entity": "Herna",
+        "identifying": false,
+        "optional": true,
+        "cardinality": 0,
+        "xor": null,
+        "name": null,
+        "transform": {
+          "anchor": {
+            "x": 401.2429471454275,
+            "y": 750.654586834734,
+            "edge": 0
+          },
+          "points": [
+            {
+              "x": 447.4266669567469,
+              "y": 699.4465682588525
+            }
+          ],
+          "manual": false
+        }
+      }
+    ],
+    [
+      {
+        "entity": "Student_administrator",
+        "identifying": true,
+        "optional": false,
+        "cardinality": 1,
+        "xor": null,
+        "name": null,
+        "transform": {
+          "anchor": {
+            "x": 493.6103867680663,
+            "y": 590.6218822533649,
+            "edge": 0
+          },
+          "points": [
+            {
+              "x": 493.40781980378057,
+              "y": 556.3564186513897
+            }
+          ],
+          "manual": false
+        }
+      },
+      {
+        "entity": "Clenstvi_ve_studentskem_svazu",
+        "identifying": false,
+        "optional": true,
+        "cardinality": 1,
+        "xor": null,
+        "name": "muze byt",
+        "transform": {
+          "anchor": {
+            "x": 493.20525283949485,
+            "y": 522.0909550494144,
+            "edge": 2
+          },
+          "points": [
+            {
+              "x": 493.40781980378057,
+              "y": 556.3564186513897
+            }
+          ],
+          "manual": false
+        }
+      }
+    ],
+    [
+      {
+        "entity": "Vybaveni",
+        "identifying": false,
+        "optional": false,
+        "cardinality": 0,
+        "xor": null,
+        "name": null,
+        "transform": {
+          "anchor": {
+            "x": 225.41150721624538,
+            "y": 783.1659967215089,
+            "edge": 1
+          },
+          "points": [
+            {
+              "x": 261.8892244543469,
+              "y": 783.6760423938923
+            }
+          ],
+          "manual": false
+        }
+      },
+      {
+        "entity": "Herna",
+        "identifying": false,
+        "optional": true,
+        "cardinality": 1,
+        "xor": null,
+        "name": "muze mit",
+        "transform": {
+          "anchor": {
+            "x": 298.3669416924484,
+            "y": 784.1860880662757,
+            "edge": 3
+          },
+          "points": [
+            {
+              "x": 261.8892244543469,
+              "y": 783.6760423938923
+            }
+          ],
+          "manual": false
+        }
+      }
+    ],
+    [
+      {
+        "entity": "Vybaveni",
+        "identifying": false,
+        "optional": true,
+        "cardinality": 1,
+        "xor": "72764d04992db14072764d04acdc53d9",
+        "name": "muze byt",
+        "transform": {
+          "anchor": {
+            "x": 121.65648991939617,
+            "y": 769.5937323306761,
+            "edge": 3
+          },
+          "points": [
+            {
+              "x": 62.7695851574914,
+              "y": 769.7183910940846
+            }
+          ],
+          "manual": false
+        }
+      },
+      {
+        "entity": "Nabytek",
+        "identifying": true,
+        "optional": false,
+        "cardinality": 1,
+        "xor": null,
+        "name": null,
+        "transform": {
+          "anchor": {
+            "x": 9.882680395586632,
+            "y": 769.8430498574933,
+            "edge": 1
+          },
+          "points": [
+            {
+              "x": 62.7695851574914,
+              "y": 769.7183910940846
+            }
+          ],
+          "manual": false
+        }
+      }
+    ],
+    [
+      {
+        "entity": "Vybaveni",
+        "identifying": false,
+        "optional": true,
+        "cardinality": 1,
+        "xor": "72764d04992db14072764d04acdc53d9",
+        "name": "muze byt",
+        "transform": {
+          "anchor": {
+            "x": 173.5339985678208,
+            "y": 825.5189378979795,
+            "edge": 2
+          },
+          "points": [
+            {
+              "x": 173.01862123937204,
+              "y": 871.2132656290721
+            }
+          ],
+          "manual": false
+        }
+      },
+      {
+        "entity": "Hra",
+        "identifying": true,
+        "optional": false,
+        "cardinality": 1,
+        "xor": null,
+        "name": null,
+        "transform": {
+          "anchor": {
+            "x": 172.5032439109233,
+            "y": 910.9075933601647,
+            "edge": 0
+          },
+          "points": [
+            {
+              "x": 173.01862123937204,
+              "y": 871.2132656290721
+            }
+          ],
+          "manual": false
+        }
+      }
+    ],
+    [
+      {
+        "entity": "Vybaveni",
+        "identifying": false,
+        "optional": true,
+        "cardinality": 1,
+        "xor": null,
+        "name": "muze byt",
+        "transform": {
+          "anchor": {
+            "x": 121.65648991939617,
+            "y": 809.1549368859063,
+            "edge": 3
+          },
+          "points": [
+            {
+              "x": 57.21108472085203,
+              "y": 848.9181698849402
+            }
+          ],
+          "manual": false
+        }
+      },
+      {
+        "entity": "Konzole",
+        "identifying": true,
+        "optional": false,
+        "cardinality": 1,
+        "xor": null,
+        "name": null,
+        "transform": {
+          "anchor": {
+            "x": 3.7656795223078987,
+            "y": 899.6814028839742,
+            "edge": 0
+          },
+          "points": [
+            {
+              "x": 57.21108472085203,
+              "y": 848.9181698849402
+            }
+          ],
+          "manual": false
+        }
+      }
+    ]
+  ],
+  "notes": [
+    {
+      "text": "Adreda nemusi patrit zadne koleji. \novsem u kazde koleje musime vedet\njeji adresu.",
+      "transform": {
+        "x": 595.1461010537807,
+        "y": 856.5489655866982,
+        "width": 154,
+        "height": 41.111111111111086
+      }
+    },
+    {
+      "text": "IO1: Pocet Game Passu spojenych\ns nejakou hernou nemuze prekrocit\nkapacitu te herny.",
+      "transform": {
+        "x": -48.53319226083522,
+        "y": 618.3200358551173,
+        "width": 152.4999999999999,
+        "height": 58.441840277777715
+      }
+    },
+    {
+      "text": "IO2: Pocet heren, ktere patri do nejake\nkoleji, nemuze byt vetsi nez 4.",
+      "transform": {
+        "x": 253.6461010537805,
+        "y": 1008.6479239200314,
+        "width": 167.60000610351562,
+        "height": 42
+      }
+    }
+  ]
+}
