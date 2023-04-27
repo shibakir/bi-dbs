@@ -30,9 +30,7 @@ select restart_sequences();
 
 -- konec mazání
 
----------------------------------------------------------------------------------------------------------------------------------------------------------------
----------------------------------------------------------------------------------------------------------------------------------------------------------------
----------------------------------------------------------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------
 
 insert into osobnost (id_osobnost, jmeno, prijmeni, pohlavi, datum_narozeni, vlastni_poruseni) values (1, 'Gerry', 'Du Hamel', null, '1988/05/12', 1);
 insert into osobnost (id_osobnost, jmeno, prijmeni, pohlavi, datum_narozeni, vlastni_poruseni) values (2, 'Sherill', 'Witson', 'Female', '1989/12/22', 2);
@@ -74,52 +72,10 @@ insert into osobnost (id_osobnost, jmeno, prijmeni, pohlavi, datum_narozeni, vla
 insert into osobnost (id_osobnost, jmeno, prijmeni, pohlavi, datum_narozeni, vlastni_poruseni) values (38, 'Clay', 'Zanotti', 'Male', '1966/05/08', 2);
 insert into osobnost (id_osobnost, jmeno, prijmeni, pohlavi, datum_narozeni, vlastni_poruseni) values (39, 'Cassey', 'Lindsey', 'Female', '1982/07/07', 2);
 insert into osobnost (id_osobnost, jmeno, prijmeni, pohlavi, datum_narozeni, vlastni_poruseni) values (40, 'Ingeberg', 'Morrieson', 'Female', '1982/07/02', 0);
-insert into osobnost (id_osobnost, jmeno, prijmeni, pohlavi, datum_narozeni, vlastni_poruseni) values (41, 'Gayel', 'Kimmitt', 'Female', '1968/04/29', 0);
-insert into osobnost (id_osobnost, jmeno, prijmeni, pohlavi, datum_narozeni, vlastni_poruseni) values (42, 'Zitella', 'Leathers', 'Female', '1948/06/15', 2);
-insert into osobnost (id_osobnost, jmeno, prijmeni, pohlavi, datum_narozeni, vlastni_poruseni) values (43, 'Rochester', 'Suggate', 'Male', '1964/04/04', 3);
-insert into osobnost (id_osobnost, jmeno, prijmeni, pohlavi, datum_narozeni, vlastni_poruseni) values (44, 'Titus', 'Onraet', 'Male', '1980/10/16', 1);
-insert into osobnost (id_osobnost, jmeno, prijmeni, pohlavi, datum_narozeni, vlastni_poruseni) values (45, 'Bridie', 'Glancey', 'Female', '1949/02/11', 2);
-insert into osobnost (id_osobnost, jmeno, prijmeni, pohlavi, datum_narozeni, vlastni_poruseni) values (46, 'Jakie', 'Kobpal', 'Male', '1998/07/01', 2);
-insert into osobnost (id_osobnost, jmeno, prijmeni, pohlavi, datum_narozeni, vlastni_poruseni) values (47, 'Konstantin', 'Bothie', null, '1994/01/05', 3);
-insert into osobnost (id_osobnost, jmeno, prijmeni, pohlavi, datum_narozeni, vlastni_poruseni) values (48, 'Genna', 'Watkins', 'Female', '2001/06/11', 2);
-insert into osobnost (id_osobnost, jmeno, prijmeni, pohlavi, datum_narozeni, vlastni_poruseni) values (49, 'Mic', 'Harme', 'Male', '1973/10/28', 3);
-insert into osobnost (id_osobnost, jmeno, prijmeni, pohlavi, datum_narozeni, vlastni_poruseni) values (50, 'Kevon', 'Dwyr', null, '1965/02/05', 1);
-insert into osobnost (id_osobnost, jmeno, prijmeni, pohlavi, datum_narozeni, vlastni_poruseni) values (51, 'Neille', 'Kenyam', 'Female', '1949/03/11', 1);
-insert into osobnost (id_osobnost, jmeno, prijmeni, pohlavi, datum_narozeni, vlastni_poruseni) values (52, 'Rozelle', 'Corrison', null, '1974/08/18', 3);
-insert into osobnost (id_osobnost, jmeno, prijmeni, pohlavi, datum_narozeni, vlastni_poruseni) values (53, 'Sandy', 'Kose', null, '1954/04/26', 1);
-insert into osobnost (id_osobnost, jmeno, prijmeni, pohlavi, datum_narozeni, vlastni_poruseni) values (54, 'Egan', 'Larderot', 'Male', '1973/08/18', 2);
-insert into osobnost (id_osobnost, jmeno, prijmeni, pohlavi, datum_narozeni, vlastni_poruseni) values (55, 'Far', 'Stidever', 'Male', '1990/12/18', 2);
-insert into osobnost (id_osobnost, jmeno, prijmeni, pohlavi, datum_narozeni, vlastni_poruseni) values (56, 'Jacintha', 'Harold', null, '1948/11/06', 0);
-insert into osobnost (id_osobnost, jmeno, prijmeni, pohlavi, datum_narozeni, vlastni_poruseni) values (57, 'Hilda', 'Town', 'Female', '1976/06/24', 0);
-insert into osobnost (id_osobnost, jmeno, prijmeni, pohlavi, datum_narozeni, vlastni_poruseni) values (58, 'Georas', 'Lilburne', 'Male', '1987/09/22', 1);
-insert into osobnost (id_osobnost, jmeno, prijmeni, pohlavi, datum_narozeni, vlastni_poruseni) values (59, 'Gloriana', 'Giacaponi', 'Female', '1988/07/29', 2);
-insert into osobnost (id_osobnost, jmeno, prijmeni, pohlavi, datum_narozeni, vlastni_poruseni) values (60, 'Marwin', 'Roach', null, '1991/10/29', 3);
-insert into osobnost (id_osobnost, jmeno, prijmeni, pohlavi, datum_narozeni, vlastni_poruseni) values (61, 'Marnie', 'Lewson', null, '1987/07/09', 3);
-insert into osobnost (id_osobnost, jmeno, prijmeni, pohlavi, datum_narozeni, vlastni_poruseni) values (62, 'Kingsley', 'Currell', 'Male', '1948/04/30', 2);
-insert into osobnost (id_osobnost, jmeno, prijmeni, pohlavi, datum_narozeni, vlastni_poruseni) values (63, 'Willette', 'Macknish', 'Female', '1978/07/28', 2);
-insert into osobnost (id_osobnost, jmeno, prijmeni, pohlavi, datum_narozeni, vlastni_poruseni) values (64, 'Layne', 'Sayton', 'Female', '1957/01/08', 1);
-insert into osobnost (id_osobnost, jmeno, prijmeni, pohlavi, datum_narozeni, vlastni_poruseni) values (65, 'Lloyd', 'Masic', 'Male', '1972/12/27', 1);
-insert into osobnost (id_osobnost, jmeno, prijmeni, pohlavi, datum_narozeni, vlastni_poruseni) values (66, 'Jimmie', 'Augie', 'Male', '1964/10/29', 3);
-insert into osobnost (id_osobnost, jmeno, prijmeni, pohlavi, datum_narozeni, vlastni_poruseni) values (67, 'Verge', 'Springall', null, '1989/01/10', 3);
-insert into osobnost (id_osobnost, jmeno, prijmeni, pohlavi, datum_narozeni, vlastni_poruseni) values (68, 'Luther', 'Feldmus', 'Male', '1979/04/24', 3);
-insert into osobnost (id_osobnost, jmeno, prijmeni, pohlavi, datum_narozeni, vlastni_poruseni) values (69, 'Ileana', 'Pinock', 'Female', '1975/02/21', 3);
-insert into osobnost (id_osobnost, jmeno, prijmeni, pohlavi, datum_narozeni, vlastni_poruseni) values (70, 'Pepi', 'Dumini', 'Female', '2001/10/07', 2);
-insert into osobnost (id_osobnost, jmeno, prijmeni, pohlavi, datum_narozeni, vlastni_poruseni) values (71, 'Gualterio', 'Gunby', 'Male', '1965/07/21', 3);
-insert into osobnost (id_osobnost, jmeno, prijmeni, pohlavi, datum_narozeni, vlastni_poruseni) values (72, 'Jerry', 'Heinrici', 'Female', '2004/11/28', 3);
-insert into osobnost (id_osobnost, jmeno, prijmeni, pohlavi, datum_narozeni, vlastni_poruseni) values (73, 'Keelby', 'Stemson', null, '1973/05/07', 1);
-insert into osobnost (id_osobnost, jmeno, prijmeni, pohlavi, datum_narozeni, vlastni_poruseni) values (74, 'Robinett', 'Grenkov', null, '1978/11/03', 1);
-insert into osobnost (id_osobnost, jmeno, prijmeni, pohlavi, datum_narozeni, vlastni_poruseni) values (75, 'Laverna', 'Di Roberto', 'Female', '1966/06/11', 1);
-insert into osobnost (id_osobnost, jmeno, prijmeni, pohlavi, datum_narozeni, vlastni_poruseni) values (76, 'Walliw', 'Wandrack', null, '1959/08/08', 0);
-insert into osobnost (id_osobnost, jmeno, prijmeni, pohlavi, datum_narozeni, vlastni_poruseni) values (77, 'Nanice', 'Janoschek', null, '1956/12/16', 2);
-insert into osobnost (id_osobnost, jmeno, prijmeni, pohlavi, datum_narozeni, vlastni_poruseni) values (78, 'Guthry', 'Dilrew', null, '1949/05/03', 3);
-insert into osobnost (id_osobnost, jmeno, prijmeni, pohlavi, datum_narozeni, vlastni_poruseni) values (79, 'Care', 'Ricardin', 'Male', '1975/10/22', 1);
-insert into osobnost (id_osobnost, jmeno, prijmeni, pohlavi, datum_narozeni, vlastni_poruseni) values (80, 'Ivor', 'Kerrod', null, '1990/11/23', 3);
 
-select setval(pg_get_serial_sequence('osobnost','id_osobnost'),80);
+select setval(pg_get_serial_sequence('osobnost','id_osobnost'), 40);
 
----------------------------------------------------------------------------------------------------------------------------------------------------------------
----------------------------------------------------------------------------------------------------------------------------------------------------------------
----------------------------------------------------------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------
 
 insert into adresa (id_adresa, mesto, ulice, cislo_orientacni) values (1, 'Prague', 'Debs', '27');
 insert into adresa (id_adresa, mesto, ulice, cislo_orientacni) values (2, 'Prague', 'Monument', '7338');
@@ -127,142 +83,94 @@ insert into adresa (id_adresa, mesto, ulice, cislo_orientacni) values (3, 'Pragu
 insert into adresa (id_adresa, mesto, ulice, cislo_orientacni) values (4, 'Prague', 'Iowa', '1');
 insert into adresa (id_adresa, mesto, ulice, cislo_orientacni) values (5, 'Prague', 'Eliot', '24987');
 insert into adresa (id_adresa, mesto, ulice, cislo_orientacni) values (6, 'Prague', 'Jackson', '45');
-insert into adresa (id_adresa, mesto, ulice, cislo_orientacni) values (7, 'Prague', 'Ramsey', '125');
+insert into adresa (id_adresa, mesto, ulice, cislo_orientacni) values (7, 'Prague', 'Zemlyanoj Val', '125');
 insert into adresa (id_adresa, mesto, ulice, cislo_orientacni) values (8, 'Prague', 'Eagan', '114');
 insert into adresa (id_adresa, mesto, ulice, cislo_orientacni) values (9, 'Prague', 'Rieder', '32227');
-insert into adresa (id_adresa, mesto, ulice, cislo_orientacni) values (10, 'Prague', '3rd', '089');
-insert into adresa (id_adresa, mesto, ulice, cislo_orientacni) values (11, 'Prague', 'American Ash', '408');
-insert into adresa (id_adresa, mesto, ulice, cislo_orientacni) values (12, 'Prague', 'Mayer', '765');
-insert into adresa (id_adresa, mesto, ulice, cislo_orientacni) values (13, 'Prague', 'Sutteridge', '820');
-insert into adresa (id_adresa, mesto, ulice, cislo_orientacni) values (14, 'Prague', 'Dahle', '11');
-insert into adresa (id_adresa, mesto, ulice, cislo_orientacni) values (15, 'Prague', 'Butterfield', '92549');
-insert into adresa (id_adresa, mesto, ulice, cislo_orientacni) values (16, 'Prague', 'Riverside', '380');
-insert into adresa (id_adresa, mesto, ulice, cislo_orientacni) values (17, 'Prague', 'Schiller', '3');
-insert into adresa (id_adresa, mesto, ulice, cislo_orientacni) values (18, 'Prague', 'Green Ridge', '99');
-insert into adresa (id_adresa, mesto, ulice, cislo_orientacni) values (19, 'Prague', 'Petterle', '69420');
-insert into adresa (id_adresa, mesto, ulice, cislo_orientacni) values (20, 'Prague', 'Loeprich', '8');
-insert into adresa (id_adresa, mesto, ulice, cislo_orientacni) values (21, 'Prague', 'Scoville', '8');
-insert into adresa (id_adresa, mesto, ulice, cislo_orientacni) values (22, 'Prague', 'Mandrake', '34');
-insert into adresa (id_adresa, mesto, ulice, cislo_orientacni) values (23, 'Prague', 'Straubel', '693');
-insert into adresa (id_adresa, mesto, ulice, cislo_orientacni) values (24, 'Prague', 'Prairie Rose', '360');
-insert into adresa (id_adresa, mesto, ulice, cislo_orientacni) values (25, 'Prague', 'Schmedeman', '15');
-insert into adresa (id_adresa, mesto, ulice, cislo_orientacni) values (26, 'Prague', 'Loftsgordon', '554');
-insert into adresa (id_adresa, mesto, ulice, cislo_orientacni) values (27, 'Prague', 'Summit', '95');
-insert into adresa (id_adresa, mesto, ulice, cislo_orientacni) values (28, 'Prague', 'Union', '44');
+insert into adresa (id_adresa, mesto, ulice, cislo_orientacni) values (10, 'Prague', 'MarlejKKT', '92');
+insert into adresa (id_adresa, mesto, ulice, cislo_orientacni) values (12, 'Prague', 'Lenina', '545');
+insert into adresa (id_adresa, mesto, ulice, cislo_orientacni) values (13, 'Prague', 'Sennaya', '324');
+insert into adresa (id_adresa, mesto, ulice, cislo_orientacni) values (14, 'Prague', 'Gopstop', '657');
+insert into adresa (id_adresa, mesto, ulice, cislo_orientacni) values (15, 'Prague', 'Yaroslavskaya', '9876');
 
-select setval(pg_get_serial_sequence('adresa','id_adresa'),28);
+select setval(pg_get_serial_sequence('adresa','id_adresa'), 15);
 
----------------------------------------------------------------------------------------------------------------------------------------------------------------
----------------------------------------------------------------------------------------------------------------------------------------------------------------
----------------------------------------------------------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------
 
-insert into kolej (id_kolej, id_adresa, nazev) values (1, 3, 'Podoli');
-insert into kolej (id_kolej, id_adresa, nazev) values (2, 5, 'Orlik');
-insert into kolej (id_kolej, id_adresa, nazev) values (3, 12, 'Sinkuleho');
+insert into kolej (id_kolej, id_adresa, nazev) values (1, 1, 'Podoli');
+insert into kolej (id_kolej, id_adresa, nazev) values (2, 2, 'Orlik');
+insert into kolej (id_kolej, id_adresa, nazev) values (3, 3, 'Sinkuleho');
 insert into kolej (id_kolej, id_adresa, nazev) values (4, 4, 'Masarykova');
-insert into kolej (id_kolej, id_adresa, nazev) values (5, 15, 'Vltava');
-insert into kolej (id_kolej, id_adresa, nazev) values (6, 1, 'Volha');
-insert into kolej (id_kolej, id_adresa, nazev) values (7, 17, 'Rigney');
-insert into kolej (id_kolej, id_adresa, nazev) values (8, 9, 'Vidon');
-insert into kolej (id_kolej, id_adresa, nazev) values (9, 1, 'Farmco');
-insert into kolej (id_kolej, id_adresa, nazev) values (10, 11, 'Strahov 2');
-insert into kolej (id_kolej, id_adresa, nazev) values (11, 11, 'Strahov 3');
-insert into kolej (id_kolej, id_adresa, nazev) values (12, 11, 'Strahov 4');
-insert into kolej (id_kolej, id_adresa, nazev) values (13, 11, 'Strahov 5');
-insert into kolej (id_kolej, id_adresa, nazev) values (14, 11, 'Strahov 6');
-insert into kolej (id_kolej, id_adresa, nazev) values (15, 11, 'Strahov 7');
-insert into kolej (id_kolej, id_adresa, nazev) values (16, 11, 'Strahov 8');
-insert into kolej (id_kolej, id_adresa, nazev) values (17, 11, 'Strahov 9');
-insert into kolej (id_kolej, id_adresa, nazev) values (18, 11, 'Strahov 10');
-insert into kolej (id_kolej, id_adresa, nazev) values (19, 11, 'Strahov 11');
-insert into kolej (id_kolej, id_adresa, nazev) values (20, 11, 'Strahov 12');
+insert into kolej (id_kolej, id_adresa, nazev) values (5, 5, 'Vltava');
+insert into kolej (id_kolej, id_adresa, nazev) values (6, 6, 'Volha');
+insert into kolej (id_kolej, id_adresa, nazev) values (7, 7, 'Odessa');
+insert into kolej (id_kolej, id_adresa, nazev) values (8, 8, 'Yaroslavl');
+insert into kolej (id_kolej, id_adresa, nazev) values (9, 9, 'Strahov 2');
+insert into kolej (id_kolej, id_adresa, nazev) values (10, 10, 'Strahov 3');
+insert into kolej (id_kolej, id_adresa, nazev) values (11, 10, 'Strahov 4');
+insert into kolej (id_kolej, id_adresa, nazev) values (12, 10, 'Strahov 5');
+insert into kolej (id_kolej, id_adresa, nazev) values (13, 13, 'Vologda');
+insert into kolej (id_kolej, id_adresa, nazev) values (14, 14, 'Volgograd');
+insert into kolej (id_kolej, id_adresa, nazev) values (15, 15, 'Kyiv');
+insert into kolej (id_kolej, id_adresa, nazev) values (16, 15, 'Moskva');
 
-select setval(pg_get_serial_sequence('kolej','id_kolej'),20);
+select setval(pg_get_serial_sequence('kolej','id_kolej'), 16);
 
----------------------------------------------------------------------------------------------------------------------------------------------------------------
----------------------------------------------------------------------------------------------------------------------------------------------------------------
----------------------------------------------------------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------
 
 insert into herna (id_herna, id_kolej, nazev, kapacita) values (1, 7, 'Bitwolf', 19);
 insert into herna (id_herna, id_kolej, nazev, kapacita) values (2, 4, 'Wrapsafe', 11);
 insert into herna (id_herna, id_kolej, nazev, kapacita) values (3, 9, 'Flowdesk', 9);
-insert into herna (id_herna, id_kolej, nazev, kapacita) values (4, 19, 'Namfix', 18);
+insert into herna (id_herna, id_kolej, nazev, kapacita) values (4, 16, 'Namfix', 18);
 insert into herna (id_herna, id_kolej, nazev, kapacita) values (5, 4, 'Gembucket', 14);
 insert into herna (id_herna, id_kolej, nazev, kapacita) values (6, 12, 'Temp', 7);
 insert into herna (id_herna, id_kolej, nazev, kapacita) values (7, 3, 'Span', 20);
 insert into herna (id_herna, id_kolej, nazev, kapacita) values (8, 9, 'Zaam-Dox', 17);
-insert into herna (id_herna, id_kolej, nazev, kapacita) values (9, 19, 'Bigtax', 11);
+insert into herna (id_herna, id_kolej, nazev, kapacita) values (9, 16, 'Bigtax', 11);
 insert into herna (id_herna, id_kolej, nazev, kapacita) values (10, 9, 'Zontrax', 17);
 insert into herna (id_herna, id_kolej, nazev, kapacita) values (11, 15, 'Span', 18);
-insert into herna (id_herna, id_kolej, nazev, kapacita) values (12, 19, 'Y-Solowarm', 9);
+insert into herna (id_herna, id_kolej, nazev, kapacita) values (12, 16, 'Y-Solowarm', 9);
 insert into herna (id_herna, id_kolej, nazev, kapacita) values (13, 10, 'Transcof', 8);
 insert into herna (id_herna, id_kolej, nazev, kapacita) values (14, 12, 'Y-Solowarm', 9);
 insert into herna (id_herna, id_kolej, nazev, kapacita) values (15, 4, 'Bytecard', 19);
 insert into herna (id_herna, id_kolej, nazev, kapacita) values (16, 14, 'Ronstring', 19);
 insert into herna (id_herna, id_kolej, nazev, kapacita) values (17, 4, 'Overhold', 8);
 insert into herna (id_herna, id_kolej, nazev, kapacita) values (18, 4, 'Matsoft', 11);
-insert into herna (id_herna, id_kolej, nazev, kapacita) values (19, 15, 'Rank', 5);
-insert into herna (id_herna, id_kolej, nazev, kapacita) values (20, 7, 'Zaam-Dox', 15);
-insert into herna (id_herna, id_kolej, nazev, kapacita) values (21, 7, 'Regrant', 12);
-insert into herna (id_herna, id_kolej, nazev, kapacita) values (22, 3, 'Bitwolf', 15);
-insert into herna (id_herna, id_kolej, nazev, kapacita) values (23, 5, 'Flexidy', 6);
-insert into herna (id_herna, id_kolej, nazev, kapacita) values (24, 15, 'Regrant', 19);
-insert into herna (id_herna, id_kolej, nazev, kapacita) values (25, 13, 'Gembucket', 10);
-insert into herna (id_herna, id_kolej, nazev, kapacita) values (26, 11, 'Namfix', 12);
-insert into herna (id_herna, id_kolej, nazev, kapacita) values (27, 11, 'Greenlam', 19);
+insert into herna (id_herna, id_kolej, nazev, kapacita) values (19, 16, 'Rank', 5);
+insert into herna (id_herna, id_kolej, nazev, kapacita) values (20, 16, 'Zaam-Dox', 15);
 
-select setval(pg_get_serial_sequence('herna','id_herna'),27);
+select setval(pg_get_serial_sequence('herna','id_herna'), 20);
 
----------------------------------------------------------------------------------------------------------------------------------------------------------------
----------------------------------------------------------------------------------------------------------------------------------------------------------------
----------------------------------------------------------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------
 
-insert into game_pass (id_game_pass, id_herna, od_datum, do_datum) values (1, 22, '2016-06-27', '2028-08-26');
-insert into game_pass (id_game_pass, id_herna, od_datum, do_datum) values (2, 2, '2004-03-24', '2024-09-09');
-insert into game_pass (id_game_pass, id_herna, od_datum, do_datum) values (3, 12, '2012-08-30', '2028-11-11');
-insert into game_pass (id_game_pass, id_herna, od_datum, do_datum) values (4, 22, '2019-01-24', '2024-11-14');
-insert into game_pass (id_game_pass, id_herna, od_datum, do_datum) values (5, 21, '2003-07-24', '2025-07-16');
-insert into game_pass (id_game_pass, id_herna, od_datum, do_datum) values (6, 22, '2009-04-07', '2024-06-17');
-insert into game_pass (id_game_pass, id_herna, od_datum, do_datum) values (7, 24, '2001-05-03', '2023-01-21');
-insert into game_pass (id_game_pass, id_herna, od_datum, do_datum) values (8, 9, '2001-05-23', '2025-10-02');
-insert into game_pass (id_game_pass, id_herna, od_datum, do_datum) values (9, 17, '2005-11-28', '2027-05-21');
-insert into game_pass (id_game_pass, id_herna, od_datum, do_datum) values (10, 6, '2002-07-01', '2028-04-08');
-insert into game_pass (id_game_pass, id_herna, od_datum, do_datum) values (11, 2, '2003-12-04', '2025-01-28');
-insert into game_pass (id_game_pass, id_herna, od_datum, do_datum) values (12, 24, '2020-01-01', '2026-11-28');
-insert into game_pass (id_game_pass, id_herna, od_datum, do_datum) values (13, 12, '2007-01-12', '2025-09-15');
-insert into game_pass (id_game_pass, id_herna, od_datum, do_datum) values (14, 20, '2013-10-30', '2027-09-23');
-insert into game_pass (id_game_pass, id_herna, od_datum, do_datum) values (15, 18, '2015-04-02', '2024-06-18');
-insert into game_pass (id_game_pass, id_herna, od_datum, do_datum) values (16, 6, '2016-04-29', '2026-03-01');
-insert into game_pass (id_game_pass, id_herna, od_datum, do_datum) values (17, 12, '2006-05-07', '2022-10-11');
-insert into game_pass (id_game_pass, id_herna, od_datum, do_datum) values (18, 22, '2003-10-21', '2024-03-17');
-insert into game_pass (id_game_pass, id_herna, od_datum, do_datum) values (19, 16, '2020-02-09', '2026-07-19');
-insert into game_pass (id_game_pass, id_herna, od_datum, do_datum) values (20, 17, '2015-03-14', '2025-05-13');
-insert into game_pass (id_game_pass, id_herna, od_datum, do_datum) values (21, 17, '2017-08-09', '2024-02-22');
-insert into game_pass (id_game_pass, id_herna, od_datum, do_datum) values (22, 13, '2018-09-26', '2029-03-21');
-insert into game_pass (id_game_pass, id_herna, od_datum, do_datum) values (23, 20, '2002-08-02', '2022-07-10');
-insert into game_pass (id_game_pass, id_herna, od_datum, do_datum) values (24, 4, '2010-05-07', '2024-02-14');
-insert into game_pass (id_game_pass, id_herna, od_datum, do_datum) values (25, 24, '2010-07-02', '2024-09-12');
-insert into game_pass (id_game_pass, id_herna, od_datum, do_datum) values (26, 19, '2012-02-13', '2022-10-29');
-insert into game_pass (id_game_pass, id_herna, od_datum, do_datum) values (27, 25, '2007-12-17', '2023-09-11');
-insert into game_pass (id_game_pass, id_herna, od_datum, do_datum) values (28, 24, '2007-11-16', '2026-07-09');
-insert into game_pass (id_game_pass, id_herna, od_datum, do_datum) values (29, 5, '2018-01-11', '2023-01-17');
-insert into game_pass (id_game_pass, id_herna, od_datum, do_datum) values (30, 5, '2001-11-23', '2026-02-28');
-insert into game_pass (id_game_pass, id_herna, od_datum, do_datum) values (31, 20, '2011-01-28', '2029-03-17');
-insert into game_pass (id_game_pass, id_herna, od_datum, do_datum) values (32, 5, '2017-07-21', '2027-10-08');
-insert into game_pass (id_game_pass, id_herna, od_datum, do_datum) values (33, 1, '2012-05-13', '2022-05-14');
-insert into game_pass (id_game_pass, id_herna, od_datum, do_datum) values (34, 27, '2018-02-19', '2023-08-08');
-insert into game_pass (id_game_pass, id_herna, od_datum, do_datum) values (35, 25, '2002-02-25', '2027-01-14');
-insert into game_pass (id_game_pass, id_herna, od_datum, do_datum) values (36, 20, '2006-02-06', '2024-12-29');
-insert into game_pass (id_game_pass, id_herna, od_datum, do_datum) values (37, 26, '2012-05-28', '2027-07-18');
-insert into game_pass (id_game_pass, id_herna, od_datum, do_datum) values (38, 27, '2014-08-09', '2025-10-30');
-insert into game_pass (id_game_pass, id_herna, od_datum, do_datum) values (39, 17, '2011-04-12', '2028-12-05');
-insert into game_pass (id_game_pass, id_herna, od_datum, do_datum) values (40, 5, '2019-08-21', '2022-12-06');
+insert into game_pass (id_game_pass, id_herna, id_osobnost, od_datum, do_datum) values (1, 1, 1, '2003-12-02', '12/22/2017');
+insert into game_pass (id_game_pass, id_herna, id_osobnost, od_datum, do_datum) values (2, 2, 2, '2002-02-10', '12/30/2021');
+insert into game_pass (id_game_pass, id_herna, id_osobnost, od_datum, do_datum) values (3, 3, 3, '2003-12-08', '5/5/2026');
+insert into game_pass (id_game_pass, id_herna, id_osobnost, od_datum, do_datum) values (4, 4, 4, '2003-07-26', '7/26/2015');
+insert into game_pass (id_game_pass, id_herna, id_osobnost, od_datum, do_datum) values (5, 5, 5, '2002-03-28', '10/8/2016');
+insert into game_pass (id_game_pass, id_herna, id_osobnost, od_datum, do_datum) values (6, 6, 6, '2001-07-01', '2/22/2029');
+insert into game_pass (id_game_pass, id_herna, id_osobnost, od_datum, do_datum) values (7, 7, 7, '2003-05-15', '3/14/2015');
+insert into game_pass (id_game_pass, id_herna, id_osobnost, od_datum, do_datum) values (8, 8, 8, '2002-11-23', '6/18/2013');
+insert into game_pass (id_game_pass, id_herna, id_osobnost, od_datum, do_datum) values (9, 9, 9, '2002-10-30', '4/2/2022');
+insert into game_pass (id_game_pass, id_herna, id_osobnost, od_datum, do_datum) values (10, 10, 10, '2002-05-20', '2/23/2008');
+insert into game_pass (id_game_pass, id_herna, id_osobnost, od_datum, do_datum) values (11, 11, 11, '2003-10-12', '3/10/2013');
+insert into game_pass (id_game_pass, id_herna, id_osobnost, od_datum, do_datum) values (12, 12, 12, '2004-01-27', '1/21/2013');
+insert into game_pass (id_game_pass, id_herna, id_osobnost, od_datum, do_datum) values (13, 13, 13, '2003-01-20', '1/27/2016');
+insert into game_pass (id_game_pass, id_herna, id_osobnost, od_datum, do_datum) values (14, 14, 14, '2003-08-21', '2/26/2030');
+insert into game_pass (id_game_pass, id_herna, id_osobnost, od_datum, do_datum) values (15, 15, 15, '2002-12-04', '5/4/2021');
+insert into game_pass (id_game_pass, id_herna, id_osobnost, od_datum, do_datum) values (16, 16, 16, '2001-10-09', '9/18/2012');
+insert into game_pass (id_game_pass, id_herna, id_osobnost, od_datum, do_datum) values (17, 17, 17, '2002-08-03', '1/12/2016');
+insert into game_pass (id_game_pass, id_herna, id_osobnost, od_datum, do_datum) values (18, 18, 18, '2003-06-15', '7/6/2021');
+insert into game_pass (id_game_pass, id_herna, id_osobnost, od_datum, do_datum) values (19, 19, 19, '2004-01-26', '11/12/2020');
+insert into game_pass (id_game_pass, id_herna, id_osobnost, od_datum, do_datum) values (20, 20, 20, '2001-11-19', '3/8/2023');
+insert into game_pass (id_game_pass, id_herna, id_osobnost, od_datum, do_datum) values (21, 20, 21, '2003-08-18', '12/1/2019');
+insert into game_pass (id_game_pass, id_herna, id_osobnost, od_datum, do_datum) values (22, 20, 22, '2001-06-17', '9/29/2007');
+insert into game_pass (id_game_pass, id_herna, id_osobnost, od_datum, do_datum) values (23, 20, 23, '2004-03-22', '6/11/2023');
+insert into game_pass (id_game_pass, id_herna, id_osobnost, od_datum, do_datum) values (24, 20, 24, '2003-04-01', '4/19/2026');
+insert into game_pass (id_game_pass, id_herna, id_osobnost, od_datum, do_datum) values (25, 20, 25, '2004-01-09', '2/24/2018');
 
-select setval(pg_get_serial_sequence('game_pass','id_game_pass'),40);
+select setval(pg_get_serial_sequence('game_pass','id_game_pass'), 25);
 
----------------------------------------------------------------------------------------------------------------------------------------------------------------
----------------------------------------------------------------------------------------------------------------------------------------------------------------
----------------------------------------------------------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------
 
 insert into clenstvi_ve_studentskem_svazu (id_clenstvi, id_osobnost, od_datum, do_datum) values (1, 9, '2020-05-29', '2027-11-23');
 insert into clenstvi_ve_studentskem_svazu (id_clenstvi, id_osobnost, od_datum, do_datum) values (2, 25, '2001-09-04', '2028-07-03');
@@ -279,28 +187,10 @@ insert into clenstvi_ve_studentskem_svazu (id_clenstvi, id_osobnost, od_datum, d
 insert into clenstvi_ve_studentskem_svazu (id_clenstvi, id_osobnost, od_datum, do_datum) values (13, 6, '2007-07-26', '2028-09-29');
 insert into clenstvi_ve_studentskem_svazu (id_clenstvi, id_osobnost, od_datum, do_datum) values (14, 19, '2014-04-30', '2023-09-08');
 insert into clenstvi_ve_studentskem_svazu (id_clenstvi, id_osobnost, od_datum, do_datum) values (15, 11, '2016-11-02', '2025-06-14');
-insert into clenstvi_ve_studentskem_svazu (id_clenstvi, id_osobnost, od_datum, do_datum) values (16, 13, '2022-01-22', '2024-04-19');
-insert into clenstvi_ve_studentskem_svazu (id_clenstvi, id_osobnost, od_datum, do_datum) values (17, 12, '2011-10-05', '2028-07-11');
-insert into clenstvi_ve_studentskem_svazu (id_clenstvi, id_osobnost, od_datum, do_datum) values (18, 18, '2006-09-20', '2029-02-28');
-insert into clenstvi_ve_studentskem_svazu (id_clenstvi, id_osobnost, od_datum, do_datum) values (19, 1, '2014-03-29', '2026-08-20');
-insert into clenstvi_ve_studentskem_svazu (id_clenstvi, id_osobnost, od_datum, do_datum) values (20, 26, '2007-02-26', '2024-10-16');
-insert into clenstvi_ve_studentskem_svazu (id_clenstvi, id_osobnost, od_datum, do_datum) values (21, 25, '2016-03-03', '2027-01-16');
-insert into clenstvi_ve_studentskem_svazu (id_clenstvi, id_osobnost, od_datum, do_datum) values (22, 1, '2004-09-06', '2027-10-15');
-insert into clenstvi_ve_studentskem_svazu (id_clenstvi, id_osobnost, od_datum, do_datum) values (23, 25, '2018-07-23', '2027-02-22');
-insert into clenstvi_ve_studentskem_svazu (id_clenstvi, id_osobnost, od_datum, do_datum) values (24, 19, '2021-09-10', '2023-05-07');
-insert into clenstvi_ve_studentskem_svazu (id_clenstvi, id_osobnost, od_datum, do_datum) values (25, 11, '2020-08-25', '2026-05-11');
-insert into clenstvi_ve_studentskem_svazu (id_clenstvi, id_osobnost, od_datum, do_datum) values (26, 14, '2020-05-12', '2025-05-06');
-insert into clenstvi_ve_studentskem_svazu (id_clenstvi, id_osobnost, od_datum, do_datum) values (27, 18, '2002-03-16', '2022-05-13');
-insert into clenstvi_ve_studentskem_svazu (id_clenstvi, id_osobnost, od_datum, do_datum) values (28, 17, '2003-12-29', '2023-02-17');
-insert into clenstvi_ve_studentskem_svazu (id_clenstvi, id_osobnost, od_datum, do_datum) values (29, 23, '2021-04-19', '2027-11-06');
-insert into clenstvi_ve_studentskem_svazu (id_clenstvi, id_osobnost, od_datum, do_datum) values (30, 27, '2007-12-22', '2025-06-04');
-insert into clenstvi_ve_studentskem_svazu (id_clenstvi, id_osobnost, od_datum, do_datum) values (31, 9, '2002-12-08', '2024-09-07');
 
-select setval(pg_get_serial_sequence('clenstvi_ve_studentskem_svazu','id_clenstvi'),31);
+select setval(pg_get_serial_sequence('clenstvi_ve_studentskem_svazu','id_clenstvi'), 15);
 
----------------------------------------------------------------------------------------------------------------------------------------------------------------
----------------------------------------------------------------------------------------------------------------------------------------------------------------
----------------------------------------------------------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------
 
 insert into student_administrator (id_clenstvi, staz) values (1, 9);
 insert into student_administrator (id_clenstvi, staz) values (2, 9);
@@ -312,352 +202,128 @@ insert into student_administrator (id_clenstvi, staz) values (7, 7);
 insert into student_administrator (id_clenstvi, staz) values (8, 0);
 insert into student_administrator (id_clenstvi, staz) values (9, 3);
 insert into student_administrator (id_clenstvi, staz) values (10, 7);
-insert into student_administrator (id_clenstvi, staz) values (11, 4);
-insert into student_administrator (id_clenstvi, staz) values (12, 4);
-insert into student_administrator (id_clenstvi, staz) values (13, 9);
-insert into student_administrator (id_clenstvi, staz) values (14, 4);
-insert into student_administrator (id_clenstvi, staz) values (15, 1);
-insert into student_administrator (id_clenstvi, staz) values (16, 2);
-insert into student_administrator (id_clenstvi, staz) values (17, 3);
 
----------------------------------------------------------------------------------------------------------------------------------------------------------------
----------------------------------------------------------------------------------------------------------------------------------------------------------------
----------------------------------------------------------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------
 
 insert into student_administrator_herna (id_clenstvi, id_herna) values (1, 14);
-insert into student_administrator_herna (id_clenstvi, id_herna) values (2, 19);
+insert into student_administrator_herna (id_clenstvi, id_herna) values (2, 16);
 insert into student_administrator_herna (id_clenstvi, id_herna) values (3, 9);
-insert into student_administrator_herna (id_clenstvi, id_herna) values (4, 26);
-insert into student_administrator_herna (id_clenstvi, id_herna) values (5, 27);
+insert into student_administrator_herna (id_clenstvi, id_herna) values (4, 16);
+insert into student_administrator_herna (id_clenstvi, id_herna) values (5, 16);
 insert into student_administrator_herna (id_clenstvi, id_herna) values (6, 5);
 insert into student_administrator_herna (id_clenstvi, id_herna) values (7, 3);
 insert into student_administrator_herna (id_clenstvi, id_herna) values (8, 13);
 insert into student_administrator_herna (id_clenstvi, id_herna) values (9, 16);
 insert into student_administrator_herna (id_clenstvi, id_herna) values (10, 12);
-insert into student_administrator_herna (id_clenstvi, id_herna) values (11, 22);
-insert into student_administrator_herna (id_clenstvi, id_herna) values (12, 17);
-insert into student_administrator_herna (id_clenstvi, id_herna) values (13, 18);
-insert into student_administrator_herna (id_clenstvi, id_herna) values (14, 14);
-insert into student_administrator_herna (id_clenstvi, id_herna) values (15, 2);
-insert into student_administrator_herna (id_clenstvi, id_herna) values (16, 11);
 
----------------------------------------------------------------------------------------------------------------------------------------------------------------
----------------------------------------------------------------------------------------------------------------------------------------------------------------
----------------------------------------------------------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------
 
-insert into externi_vedouci (id_externi_vedouci, jmeno, prijmeni, datum_narozeni) values (1, 'Ronnie', 'Kynston', '1945-09-08');
+insert into externi_vedouci (id_externi_vedouci, jmeno, prijmeni, datum_narozeni) values (1, 'Tomas', 'Masaryk', '1850-03-07');
 
-select setval(pg_get_serial_sequence('externi_vedouci','id_externi_vedouci'),1);
+select setval(pg_get_serial_sequence('externi_vedouci','id_externi_vedouci'), 1);
 
----------------------------------------------------------------------------------------------------------------------------------------------------------------
----------------------------------------------------------------------------------------------------------------------------------------------------------------
----------------------------------------------------------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------
 
-insert into osobnost_game_pass (id_osobnost, id_game_pass) values (2, 1);
-insert into osobnost_game_pass (id_osobnost, id_game_pass) values (67, 2);
-insert into osobnost_game_pass (id_osobnost, id_game_pass) values (73, 3);
-insert into osobnost_game_pass (id_osobnost, id_game_pass) values (73, 4);
-insert into osobnost_game_pass (id_osobnost, id_game_pass) values (73, 5);
-insert into osobnost_game_pass (id_osobnost, id_game_pass) values (13, 6);
-insert into osobnost_game_pass (id_osobnost, id_game_pass) values (60, 7);
-insert into osobnost_game_pass (id_osobnost, id_game_pass) values (19, 8);
-insert into osobnost_game_pass (id_osobnost, id_game_pass) values (62, 9);
-insert into osobnost_game_pass (id_osobnost, id_game_pass) values (75, 10);
-insert into osobnost_game_pass (id_osobnost, id_game_pass) values (57, 11);
-insert into osobnost_game_pass (id_osobnost, id_game_pass) values (67, 12);
-insert into osobnost_game_pass (id_osobnost, id_game_pass) values (31, 13);
-insert into osobnost_game_pass (id_osobnost, id_game_pass) values (29, 14);
-insert into osobnost_game_pass (id_osobnost, id_game_pass) values (12, 15);
-insert into osobnost_game_pass (id_osobnost, id_game_pass) values (11, 16);
-insert into osobnost_game_pass (id_osobnost, id_game_pass) values (37, 17);
-insert into osobnost_game_pass (id_osobnost, id_game_pass) values (40, 18);
-insert into osobnost_game_pass (id_osobnost, id_game_pass) values (26, 19);
-insert into osobnost_game_pass (id_osobnost, id_game_pass) values (43, 20);
-insert into osobnost_game_pass (id_osobnost, id_game_pass) values (36, 21);
-insert into osobnost_game_pass (id_osobnost, id_game_pass) values (67, 22);
-insert into osobnost_game_pass (id_osobnost, id_game_pass) values (70, 23);
-insert into osobnost_game_pass (id_osobnost, id_game_pass) values (17, 24);
-insert into osobnost_game_pass (id_osobnost, id_game_pass) values (49, 25);
-insert into osobnost_game_pass (id_osobnost, id_game_pass) values (1, 26);
-insert into osobnost_game_pass (id_osobnost, id_game_pass) values (46, 27);
-insert into osobnost_game_pass (id_osobnost, id_game_pass) values (77, 28);
-insert into osobnost_game_pass (id_osobnost, id_game_pass) values (27, 29);
-insert into osobnost_game_pass (id_osobnost, id_game_pass) values (72, 30);
-insert into osobnost_game_pass (id_osobnost, id_game_pass) values (56, 31);
-insert into osobnost_game_pass (id_osobnost, id_game_pass) values (29, 32);
-insert into osobnost_game_pass (id_osobnost, id_game_pass) values (20, 33);
-insert into osobnost_game_pass (id_osobnost, id_game_pass) values (39, 34);
-insert into osobnost_game_pass (id_osobnost, id_game_pass) values (62, 35);
-insert into osobnost_game_pass (id_osobnost, id_game_pass) values (10, 36);
-insert into osobnost_game_pass (id_osobnost, id_game_pass) values (52, 37);
-insert into osobnost_game_pass (id_osobnost, id_game_pass) values (3, 38);
-insert into osobnost_game_pass (id_osobnost, id_game_pass) values (35, 39);
-insert into osobnost_game_pass (id_osobnost, id_game_pass) values (21, 40);
+insert into vybaveni (id_vybaveni, id_herna) values (1, 1);
+insert into vybaveni (id_vybaveni, id_herna) values (2, 2);
+insert into vybaveni (id_vybaveni, id_herna) values (3, 3);
+insert into vybaveni (id_vybaveni, id_herna) values (4, 4);
+insert into vybaveni (id_vybaveni, id_herna) values (5, 5);
+insert into vybaveni (id_vybaveni, id_herna) values (6, 6);
+insert into vybaveni (id_vybaveni, id_herna) values (7, 7);
+insert into vybaveni (id_vybaveni, id_herna) values (8, 8);
+insert into vybaveni (id_vybaveni, id_herna) values (9, 9);
+insert into vybaveni (id_vybaveni, id_herna) values (10, 10);
+insert into vybaveni (id_vybaveni, id_herna) values (11, 11);
+insert into vybaveni (id_vybaveni, id_herna) values (12, 12);
+insert into vybaveni (id_vybaveni, id_herna) values (13, 13);
+insert into vybaveni (id_vybaveni, id_herna) values (14, 14);
+insert into vybaveni (id_vybaveni, id_herna) values (15, 15);
 
----------------------------------------------------------------------------------------------------------------------------------------------------------------
----------------------------------------------------------------------------------------------------------------------------------------------------------------
----------------------------------------------------------------------------------------------------------------------------------------------------------------
+insert into vybaveni (id_vybaveni, id_herna) values (16, 1);
+insert into vybaveni (id_vybaveni, id_herna) values (17, 2);
+insert into vybaveni (id_vybaveni, id_herna) values (18, 3);
+insert into vybaveni (id_vybaveni, id_herna) values (19, 4);
+insert into vybaveni (id_vybaveni, id_herna) values (20, 5);
+insert into vybaveni (id_vybaveni, id_herna) values (21, 6);
+insert into vybaveni (id_vybaveni, id_herna) values (22, 7);
+insert into vybaveni (id_vybaveni, id_herna) values (23, 8);
+insert into vybaveni (id_vybaveni, id_herna) values (24, 9);
+insert into vybaveni (id_vybaveni, id_herna) values (25, 10);
 
-insert into vybaveni (id_vybaveni, id_herna) values (1, 27);
-insert into vybaveni (id_vybaveni, id_herna) values (2, 21);
-insert into vybaveni (id_vybaveni, id_herna) values (3, 14);
-insert into vybaveni (id_vybaveni, id_herna) values (4, 17);
-insert into vybaveni (id_vybaveni, id_herna) values (5, 3);
-insert into vybaveni (id_vybaveni, id_herna) values (6, 25);
-insert into vybaveni (id_vybaveni, id_herna) values (7, 1);
-insert into vybaveni (id_vybaveni, id_herna) values (8, 18);
-insert into vybaveni (id_vybaveni, id_herna) values (9, 26);
-insert into vybaveni (id_vybaveni, id_herna) values (10, 27);
-insert into vybaveni (id_vybaveni, id_herna) values (11, 16);
-insert into vybaveni (id_vybaveni, id_herna) values (12, 26);
-insert into vybaveni (id_vybaveni, id_herna) values (13, 15);
-insert into vybaveni (id_vybaveni, id_herna) values (14, 3);
-insert into vybaveni (id_vybaveni, id_herna) values (15, 11);
-insert into vybaveni (id_vybaveni, id_herna) values (16, 19);
-insert into vybaveni (id_vybaveni, id_herna) values (17, 23);
-insert into vybaveni (id_vybaveni, id_herna) values (18, 20);
-insert into vybaveni (id_vybaveni, id_herna) values (19, 3);
-insert into vybaveni (id_vybaveni, id_herna) values (20, 9);
-insert into vybaveni (id_vybaveni, id_herna) values (21, 25);
-insert into vybaveni (id_vybaveni, id_herna) values (22, 8);
-insert into vybaveni (id_vybaveni, id_herna) values (23, 22);
-insert into vybaveni (id_vybaveni, id_herna) values (24, 2);
-insert into vybaveni (id_vybaveni, id_herna) values (25, 18);
-insert into vybaveni (id_vybaveni, id_herna) values (26, 10);
-insert into vybaveni (id_vybaveni, id_herna) values (27, 19);
-insert into vybaveni (id_vybaveni, id_herna) values (28, 15);
-insert into vybaveni (id_vybaveni, id_herna) values (29, 8);
-insert into vybaveni (id_vybaveni, id_herna) values (30, 2);
-insert into vybaveni (id_vybaveni, id_herna) values (31, 6);
-insert into vybaveni (id_vybaveni, id_herna) values (32, 4);
-insert into vybaveni (id_vybaveni, id_herna) values (33, 4);
-insert into vybaveni (id_vybaveni, id_herna) values (34, 12);
-insert into vybaveni (id_vybaveni, id_herna) values (35, 13);
-insert into vybaveni (id_vybaveni, id_herna) values (36, 9);
-insert into vybaveni (id_vybaveni, id_herna) values (37, 18);
-insert into vybaveni (id_vybaveni, id_herna) values (38, 12);
-insert into vybaveni (id_vybaveni, id_herna) values (39, 7);
-insert into vybaveni (id_vybaveni, id_herna) values (40, 26);
-insert into vybaveni (id_vybaveni, id_herna) values (41, 24);
-insert into vybaveni (id_vybaveni, id_herna) values (42, 6);
-insert into vybaveni (id_vybaveni, id_herna) values (43, 6);
-insert into vybaveni (id_vybaveni, id_herna) values (44, 9);
+insert into vybaveni (id_vybaveni, id_herna) values (26, 11);
+insert into vybaveni (id_vybaveni, id_herna) values (27, 12);
+insert into vybaveni (id_vybaveni, id_herna) values (28, 13);
+insert into vybaveni (id_vybaveni, id_herna) values (29, 14);
+insert into vybaveni (id_vybaveni, id_herna) values (30, 15);
+insert into vybaveni (id_vybaveni, id_herna) values (31, 1);
+insert into vybaveni (id_vybaveni, id_herna) values (32, 2);
+insert into vybaveni (id_vybaveni, id_herna) values (33, 3);
+insert into vybaveni (id_vybaveni, id_herna) values (34, 4);
+insert into vybaveni (id_vybaveni, id_herna) values (35, 5);
+insert into vybaveni (id_vybaveni, id_herna) values (36, 6);
+insert into vybaveni (id_vybaveni, id_herna) values (37, 7);
+insert into vybaveni (id_vybaveni, id_herna) values (38, 8);
+insert into vybaveni (id_vybaveni, id_herna) values (39, 9);
+insert into vybaveni (id_vybaveni, id_herna) values (40, 10);
+
+insert into vybaveni (id_vybaveni, id_herna) values (41, 11);
+insert into vybaveni (id_vybaveni, id_herna) values (42, 12);
+insert into vybaveni (id_vybaveni, id_herna) values (43, 13);
+insert into vybaveni (id_vybaveni, id_herna) values (44, 14);
 insert into vybaveni (id_vybaveni, id_herna) values (45, 15);
-insert into vybaveni (id_vybaveni, id_herna) values (46, 7);
-insert into vybaveni (id_vybaveni, id_herna) values (47, 18);
-insert into vybaveni (id_vybaveni, id_herna) values (48, 1);
-insert into vybaveni (id_vybaveni, id_herna) values (49, 4);
-insert into vybaveni (id_vybaveni, id_herna) values (50, 25);
-insert into vybaveni (id_vybaveni, id_herna) values (51, 21);
-insert into vybaveni (id_vybaveni, id_herna) values (52, 23);
-insert into vybaveni (id_vybaveni, id_herna) values (53, 19);
-insert into vybaveni (id_vybaveni, id_herna) values (54, 4);
-insert into vybaveni (id_vybaveni, id_herna) values (55, 9);
-insert into vybaveni (id_vybaveni, id_herna) values (56, 13);
-insert into vybaveni (id_vybaveni, id_herna) values (57, 5);
-insert into vybaveni (id_vybaveni, id_herna) values (58, 23);
-insert into vybaveni (id_vybaveni, id_herna) values (59, 24);
-insert into vybaveni (id_vybaveni, id_herna) values (60, 3);
-insert into vybaveni (id_vybaveni, id_herna) values (61, 7);
-insert into vybaveni (id_vybaveni, id_herna) values (62, 22);
-insert into vybaveni (id_vybaveni, id_herna) values (63, 7);
-insert into vybaveni (id_vybaveni, id_herna) values (64, 11);
-insert into vybaveni (id_vybaveni, id_herna) values (65, 8);
-insert into vybaveni (id_vybaveni, id_herna) values (66, 14);
-insert into vybaveni (id_vybaveni, id_herna) values (67, 19);
-insert into vybaveni (id_vybaveni, id_herna) values (68, 9);
-insert into vybaveni (id_vybaveni, id_herna) values (69, 20);
-insert into vybaveni (id_vybaveni, id_herna) values (70, 17);
-insert into vybaveni (id_vybaveni, id_herna) values (71, 9);
-insert into vybaveni (id_vybaveni, id_herna) values (72, 16);
-insert into vybaveni (id_vybaveni, id_herna) values (73, 4);
-insert into vybaveni (id_vybaveni, id_herna) values (74, 21);
-insert into vybaveni (id_vybaveni, id_herna) values (75, 6);
-insert into vybaveni (id_vybaveni, id_herna) values (76, 16);
-insert into vybaveni (id_vybaveni, id_herna) values (77, 27);
-insert into vybaveni (id_vybaveni, id_herna) values (78, 3);
-insert into vybaveni (id_vybaveni, id_herna) values (79, 9);
-insert into vybaveni (id_vybaveni, id_herna) values (80, 25);
-insert into vybaveni (id_vybaveni, id_herna) values (81, 24);
-insert into vybaveni (id_vybaveni, id_herna) values (82, 11);
-insert into vybaveni (id_vybaveni, id_herna) values (83, 16);
-insert into vybaveni (id_vybaveni, id_herna) values (84, 10);
-insert into vybaveni (id_vybaveni, id_herna) values (85, 11);
-insert into vybaveni (id_vybaveni, id_herna) values (86, 6);
-insert into vybaveni (id_vybaveni, id_herna) values (87, 11);
-insert into vybaveni (id_vybaveni, id_herna) values (88, 3);
-insert into vybaveni (id_vybaveni, id_herna) values (89, 2);
-insert into vybaveni (id_vybaveni, id_herna) values (90, 22);
-insert into vybaveni (id_vybaveni, id_herna) values (91, 10);
-insert into vybaveni (id_vybaveni, id_herna) values (92, 14);
-insert into vybaveni (id_vybaveni, id_herna) values (93, 1);
-insert into vybaveni (id_vybaveni, id_herna) values (94, 26);
-insert into vybaveni (id_vybaveni, id_herna) values (95, 12);
-insert into vybaveni (id_vybaveni, id_herna) values (96, 14);
-insert into vybaveni (id_vybaveni, id_herna) values (97, 10);
-insert into vybaveni (id_vybaveni, id_herna) values (98, 2);
-insert into vybaveni (id_vybaveni, id_herna) values (99, 15);
-insert into vybaveni (id_vybaveni, id_herna) values (100, 20);
-insert into vybaveni (id_vybaveni, id_herna) values (101, 19);
-insert into vybaveni (id_vybaveni, id_herna) values (102, 17);
-insert into vybaveni (id_vybaveni, id_herna) values (103, 12);
-insert into vybaveni (id_vybaveni, id_herna) values (104, 4);
-insert into vybaveni (id_vybaveni, id_herna) values (105, 21);
-insert into vybaveni (id_vybaveni, id_herna) values (106, 13);
-insert into vybaveni (id_vybaveni, id_herna) values (107, 2);
-insert into vybaveni (id_vybaveni, id_herna) values (108, 11);
-insert into vybaveni (id_vybaveni, id_herna) values (109, 3);
-insert into vybaveni (id_vybaveni, id_herna) values (110, 24);
-insert into vybaveni (id_vybaveni, id_herna) values (111, 8);
-insert into vybaveni (id_vybaveni, id_herna) values (112, 24);
-insert into vybaveni (id_vybaveni, id_herna) values (113, 21);
-insert into vybaveni (id_vybaveni, id_herna) values (114, 7);
-insert into vybaveni (id_vybaveni, id_herna) values (115, 23);
-insert into vybaveni (id_vybaveni, id_herna) values (116, 21);
-insert into vybaveni (id_vybaveni, id_herna) values (117, 13);
-insert into vybaveni (id_vybaveni, id_herna) values (118, 15);
-insert into vybaveni (id_vybaveni, id_herna) values (119, 13);
-insert into vybaveni (id_vybaveni, id_herna) values (120, 14);
-insert into vybaveni (id_vybaveni, id_herna) values (121, 1);
-insert into vybaveni (id_vybaveni, id_herna) values (122, 9);
-insert into vybaveni (id_vybaveni, id_herna) values (123, 19);
-insert into vybaveni (id_vybaveni, id_herna) values (124, 25);
-insert into vybaveni (id_vybaveni, id_herna) values (125, 11);
-insert into vybaveni (id_vybaveni, id_herna) values (126, 20);
-insert into vybaveni (id_vybaveni, id_herna) values (127, 21);
-insert into vybaveni (id_vybaveni, id_herna) values (128, 21);
-insert into vybaveni (id_vybaveni, id_herna) values (129, 1);
-insert into vybaveni (id_vybaveni, id_herna) values (130, 27);
-insert into vybaveni (id_vybaveni, id_herna) values (131, 27);
-insert into vybaveni (id_vybaveni, id_herna) values (132, 27);
-insert into vybaveni (id_vybaveni, id_herna) values (133, 27);
-insert into vybaveni (id_vybaveni, id_herna) values (134, 27);
-insert into vybaveni (id_vybaveni, id_herna) values (135, 27);
-insert into vybaveni (id_vybaveni, id_herna) values (136, 27);
 
-select setval(pg_get_serial_sequence('vybaveni','id_vybaveni'),136);
 
----------------------------------------------------------------------------------------------------------------------------------------------------------------
----------------------------------------------------------------------------------------------------------------------------------------------------------------
----------------------------------------------------------------------------------------------------------------------------------------------------------------
+select setval(pg_get_serial_sequence('vybaveni','id_vybaveni'), 30);
 
-insert into hra (id_vybaveni, nazev, zanr) values (1, 'Kornit Digital Ltd.', 'Keylex');
-insert into hra (id_vybaveni, nazev, zanr) values (2, 'UMH Properties, Inc.', 'Home Ing');
-insert into hra (id_vybaveni, nazev, zanr) values (3, 'Ares Management L.P.', 'Sonsing');
-insert into hra (id_vybaveni, nazev, zanr) values (4, 'American Water Works', 'Namfix');
-insert into hra (id_vybaveni, nazev, zanr) values (5, 'National Energy Services Reunited Corp.', 'Fix San');
-insert into hra (id_vybaveni, nazev, zanr) values (6, 'FlexShares US Quality Large Cap Index Fund', 'Temp');
-insert into hra (id_vybaveni, nazev, zanr) values (7, 'Capitol Acquisition Corp. III', 'Viva');
-insert into hra (id_vybaveni, nazev, zanr) values (8, 'Nu Skin Enterprises, Inc.', 'Konklab');
-insert into hra (id_vybaveni, nazev, zanr) values (9, 'John Hancock Hedged Equity & Income Fund', 'Ronstring');
-insert into hra (id_vybaveni, nazev, zanr) values (10, 'Aduro Biotech, Inc.', 'Cookley');
-insert into hra (id_vybaveni, nazev, zanr) values (11, 'Natural Resource Partners LP', 'Greenlam');
-insert into hra (id_vybaveni, nazev, zanr) values (12, 'VelocityShares Daily Inverse VIX Medium-Term ETN', 'Fix San');
-insert into hra (id_vybaveni, nazev, zanr) values (13, 'Resources Connection, Inc.', 'Aerified');
-insert into hra (id_vybaveni, nazev, zanr) values (14, 'QuickLogic Corporation', 'Kanlam');
-insert into hra (id_vybaveni, nazev, zanr) values (15, 'Sprouts Farmers Market, Inc.', 'Toughjoyfax');
-insert into hra (id_vybaveni, nazev, zanr) values (16, 'SiteOne Landscape Supply, Inc.', 'Konklab');
-insert into hra (id_vybaveni, nazev, zanr) values (17, 'Omega Flex, Inc.', 'Sonsing');
-insert into hra (id_vybaveni, nazev, zanr) values (18, 'Amplify Online Retail ETF', 'Hatity');
-insert into hra (id_vybaveni, nazev, zanr) values (19, 'Anixter International Inc.', 'Alpha');
-insert into hra (id_vybaveni, nazev, zanr) values (20, 'Advaxis, Inc.', 'Andalax');
-insert into hra (id_vybaveni, nazev, zanr) values (21, 'Carver Bancorp, Inc.', 'Bitwolf');
-insert into hra (id_vybaveni, nazev, zanr) values (22, 'Gladstone Commercial Corporation', 'Pannier');
-insert into hra (id_vybaveni, nazev, zanr) values (23, 'S&W Seed Company', 'Keylex');
-insert into hra (id_vybaveni, nazev, zanr) values (24, 'PhaseRx, Inc.', 'Biodex');
-insert into hra (id_vybaveni, nazev, zanr) values (25, 'Security National Financial Corporation', 'Namfix');
-insert into hra (id_vybaveni, nazev, zanr) values (26, 'OvaScience Inc.', 'Namfix');
-insert into hra (id_vybaveni, nazev, zanr) values (27, 'PolarityTE, Inc.', 'Transcof');
-insert into hra (id_vybaveni, nazev, zanr) values (28, 'E*TRADE Financial Corporation', 'Alpha');
-insert into hra (id_vybaveni, nazev, zanr) values (29, 'AnaptysBio, Inc.', 'Cookley');
-insert into hra (id_vybaveni, nazev, zanr) values (30, 'IRIDEX Corporation', 'Pannier');
-insert into hra (id_vybaveni, nazev, zanr) values (31, 'Synthetic Fixed-Income Securities, Inc.', 'Tin');
-insert into hra (id_vybaveni, nazev, zanr) values (32, 'ChinaCache International Holdings Ltd.', 'Hatity');
-insert into hra (id_vybaveni, nazev, zanr) values (33, 'Citigroup Inc.', 'Daltfresh');
-insert into hra (id_vybaveni, nazev, zanr) values (34, 'Citi Trends, Inc.', 'Otcom');
-insert into hra (id_vybaveni, nazev, zanr) values (35, 'MFS Intermediate Income Trust', 'Zathin');
-insert into hra (id_vybaveni, nazev, zanr) values (36, 'PowerShares S&P SmallCap Information Technology Portfolio', 'Span');
-insert into hra (id_vybaveni, nazev, zanr) values (37, 'Calamos Convertible Opportunities and Income Fund', 'Bamity');
-insert into hra (id_vybaveni, nazev, zanr) values (38, 'Invesco Municipal Income Opportunities Trust', 'It');
-insert into hra (id_vybaveni, nazev, zanr) values (39, 'Goldman Sachs Group, Inc. (The)', 'Home Ing');
-insert into hra (id_vybaveni, nazev, zanr) values (40, 'Tutor Perini Corporation', 'Pannier');
-insert into hra (id_vybaveni, nazev, zanr) values (41, 'FlexShares STOXX US ESG Impact Index Fund', 'Voltsillam');
-insert into hra (id_vybaveni, nazev, zanr) values (42, 'New Relic, Inc.', 'Cookley');
-insert into hra (id_vybaveni, nazev, zanr) values (43, 'Signature Bank', 'Prodder');
-insert into hra (id_vybaveni, nazev, zanr) values (44, 'Palo Alto Networks, Inc.', 'Keylex');
-insert into hra (id_vybaveni, nazev, zanr) values (45, 'Nova Measuring Instruments Ltd.', 'Stim');
-insert into hra (id_vybaveni, nazev, zanr) values (46, 'VistaGen Therapeutics, Inc.', 'Zoolab');
-insert into hra (id_vybaveni, nazev, zanr) values (47, 'Robert Half International Inc.', 'Fintone');
-insert into hra (id_vybaveni, nazev, zanr) values (48, 'Value Line, Inc.', 'Rank');
-insert into hra (id_vybaveni, nazev, zanr) values (49, 'J. Alexander''s Holdings, Inc.', 'Mat Lam Tam');
-insert into hra (id_vybaveni, nazev, zanr) values (50, 'Templeton Global Income Fund, Inc.', 'Overhold');
-insert into hra (id_vybaveni, nazev, zanr) values (51, 'Virtu Financial, Inc.', 'Lotstring');
-insert into hra (id_vybaveni, nazev, zanr) values (52, 'Intelsat S.A.', 'Fixflex');
-insert into hra (id_vybaveni, nazev, zanr) values (53, 'Forward Industries, Inc.', 'Y-find');
-insert into hra (id_vybaveni, nazev, zanr) values (54, 'ProShares UltraShort Nasdaq Biotechnology', 'Bigtax');
+-----------------------------------------------------------------------------------------------------------
 
----------------------------------------------------------------------------------------------------------------------------------------------------------------
----------------------------------------------------------------------------------------------------------------------------------------------------------------
----------------------------------------------------------------------------------------------------------------------------------------------------------------
+insert into hra (id_vybaveni, nazev, zanr) values (1, 'Pannier', 'Braden');
+insert into hra (id_vybaveni, nazev, zanr) values (2, 'Bytecard', 'Marijn');
+insert into hra (id_vybaveni, nazev, zanr) values (3, 'Voltsillam', 'Valdemar');
+insert into hra (id_vybaveni, nazev, zanr) values (4, 'Tin', 'Glen');
+insert into hra (id_vybaveni, nazev, zanr) values (5, 'Opela', 'Syd');
+insert into hra (id_vybaveni, nazev, zanr) values (6, 'Prodder', 'Gaelan');
+insert into hra (id_vybaveni, nazev, zanr) values (7, 'Konklab', 'Jayson');
+insert into hra (id_vybaveni, nazev, zanr) values (8, 'Biodex', 'Avery');
+insert into hra (id_vybaveni, nazev, zanr) values (9, 'Gembucket', 'Archibold');
+insert into hra (id_vybaveni, nazev, zanr) values (10, 'Flowdesk', 'Timmie');
 
-insert into konzole (id_vybaveni, model) values (66, 'Ikey');
-insert into konzole (id_vybaveni, model) values (56, 'Willetta');
-insert into konzole (id_vybaveni, model) values (72, 'Starlene');
-insert into konzole (id_vybaveni, model) values (65, 'Chester');
-insert into konzole (id_vybaveni, model) values (67, 'Hugh');
-insert into konzole (id_vybaveni, model) values (70, 'Dino');
-insert into konzole (id_vybaveni, model) values (60, 'Fitz');
-insert into konzole (id_vybaveni, model) values (91, 'Bernardo');
-insert into konzole (id_vybaveni, model) values (92, 'Sibylla');
-insert into konzole (id_vybaveni, model) values (69, 'Sid');
-insert into konzole (id_vybaveni, model) values (58, 'Carolann');
-insert into konzole (id_vybaveni, model) values (61, 'Warner');
-insert into konzole (id_vybaveni, model) values (68, 'Paulette');
-insert into konzole (id_vybaveni, model) values (85, 'Min');
-insert into konzole (id_vybaveni, model) values (99, 'Sherri');
+-----------------------------------------------------------------------------------------------------------
 
----------------------------------------------------------------------------------------------------------------------------------------------------------------
----------------------------------------------------------------------------------------------------------------------------------------------------------------
----------------------------------------------------------------------------------------------------------------------------------------------------------------
+insert into konzole (id_vybaveni, model) values (11, 'A1');
+insert into konzole (id_vybaveni, model) values (12, 'A1');
+insert into konzole (id_vybaveni, model) values (13, 'A1');
+insert into konzole (id_vybaveni, model) values (14, 'A1');
+insert into konzole (id_vybaveni, model) values (15, 'A2');
+insert into konzole (id_vybaveni, model) values (16, 'A2');
+insert into konzole (id_vybaveni, model) values (17, 'A2');
+insert into konzole (id_vybaveni, model) values (18, 'A3');
+insert into konzole (id_vybaveni, model) values (19, 'A3');
+insert into konzole (id_vybaveni, model) values (20, 'A3');
+insert into konzole (id_vybaveni, model) values (21, 'A4');
+insert into konzole (id_vybaveni, model) values (22, 'A4');
+insert into konzole (id_vybaveni, model) values (23, 'A4');
+insert into konzole (id_vybaveni, model) values (24, 'A5');
+insert into konzole (id_vybaveni, model) values (25, 'A6');
 
-insert into nabytek (id_vybaveni, nazev, stav) values (100, 'Hanna', 1);
-insert into nabytek (id_vybaveni, nazev, stav) values (101, 'Ermin', 1);
-insert into nabytek (id_vybaveni, nazev, stav) values (102, 'Annabell', 3);
-insert into nabytek (id_vybaveni, nazev, stav) values (103, 'Cherlyn', 5);
-insert into nabytek (id_vybaveni, nazev, stav) values (104, 'Milzie', 2);
-insert into nabytek (id_vybaveni, nazev, stav) values (105, 'Pete', 4);
-insert into nabytek (id_vybaveni, nazev, stav) values (106, 'Dyane', 5);
-insert into nabytek (id_vybaveni, nazev, stav) values (107, 'Robenia', 5);
-insert into nabytek (id_vybaveni, nazev, stav) values (108, 'Hamel', 4);
-insert into nabytek (id_vybaveni, nazev, stav) values (109, 'Shayla', 5);
-insert into nabytek (id_vybaveni, nazev, stav) values (110, 'Sidoney', 1);
-insert into nabytek (id_vybaveni, nazev, stav) values (111, 'Vernen', 3);
-insert into nabytek (id_vybaveni, nazev, stav) values (112, 'Guillaume', 1);
-insert into nabytek (id_vybaveni, nazev, stav) values (113, 'Lurline', 2);
-insert into nabytek (id_vybaveni, nazev, stav) values (114, 'Dulsea', 5);
-insert into nabytek (id_vybaveni, nazev, stav) values (115, 'Torin', 2);
-insert into nabytek (id_vybaveni, nazev, stav) values (116, 'Claudie', 3);
-insert into nabytek (id_vybaveni, nazev, stav) values (117, 'Jannelle', 1);
-insert into nabytek (id_vybaveni, nazev, stav) values (118, 'Shandeigh', 1);
-insert into nabytek (id_vybaveni, nazev, stav) values (119, 'Haywood', 3);
-insert into nabytek (id_vybaveni, nazev, stav) values (120, 'Rogerio', 4);
-insert into nabytek (id_vybaveni, nazev, stav) values (121, 'Mindy', 5);
-insert into nabytek (id_vybaveni, nazev, stav) values (122, 'Ximenez', 4);
-insert into nabytek (id_vybaveni, nazev, stav) values (123, 'Emile', 4);
-insert into nabytek (id_vybaveni, nazev, stav) values (124, 'Von', 5);
-insert into nabytek (id_vybaveni, nazev, stav) values (125, 'Gregorius', 3);
-insert into nabytek (id_vybaveni, nazev, stav) values (126, 'Ilsa', 2);
-insert into nabytek (id_vybaveni, nazev, stav) values (127, 'Vlad', 2);
-insert into nabytek (id_vybaveni, nazev, stav) values (128, 'Mayne', 3);
-insert into nabytek (id_vybaveni, nazev, stav) values (129, 'Monika', 2);
-insert into nabytek (id_vybaveni, nazev, stav) values (130, 'Lethia', 1);
-insert into nabytek (id_vybaveni, nazev, stav) values (131, 'Vasily', 5);
-insert into nabytek (id_vybaveni, nazev, stav) values (132, 'D''arcy', 1);
-insert into nabytek (id_vybaveni, nazev, stav) values (133, 'Annadiane', 1);
-insert into nabytek (id_vybaveni, nazev, stav) values (134, 'Uta', 1);
-insert into nabytek (id_vybaveni, nazev, stav) values (135, 'Vincenty', 3);
-insert into nabytek (id_vybaveni, nazev, stav) values (136, 'Ainslee', 4);
+-----------------------------------------------------------------------------------------------------------
 
----------------------------------------------------------------------------------------------------------------------------------------------------------------
----------------------------------------------------------------------------------------------------------------------------------------------------------------
----------------------------------------------------------------------------------------------------------------------------------------------------------------
+insert into nabytek (id_vybaveni, nazev, stav) values (26, 'Konstanze', 3);
+insert into nabytek (id_vybaveni, nazev, stav) values (27, 'Sallie'   , 3);
+insert into nabytek (id_vybaveni, nazev, stav) values (28, 'Margo'    , 3);
+insert into nabytek (id_vybaveni, nazev, stav) values (29, 'Hillary'  , 3);
+insert into nabytek (id_vybaveni, nazev, stav) values (30, 'Mora'     , 3);
+
+insert into nabytek (id_vybaveni, nazev, stav) values (31, 'Jilly'    , 1);
+insert into nabytek (id_vybaveni, nazev, stav) values (32, 'Jelene'   , 3);
+insert into nabytek (id_vybaveni, nazev, stav) values (33, 'Wylma'    , 1);
+insert into nabytek (id_vybaveni, nazev, stav) values (34, 'Helen'    , 1);
+insert into nabytek (id_vybaveni, nazev, stav) values (35, 'Leonore'  , 1);
+insert into nabytek (id_vybaveni, nazev, stav) values (36, 'Allys'    , 2);
+insert into nabytek (id_vybaveni, nazev, stav) values (37, 'Cammie'   , 1);
+insert into nabytek (id_vybaveni, nazev, stav) values (38, 'Fernanda' , 1);
+insert into nabytek (id_vybaveni, nazev, stav) values (39, 'Myranda'  , 1);
+insert into nabytek (id_vybaveni, nazev, stav) values (40, 'Keri'     , 1);
+-----------------------------------------------------------------------------------------------------------
+
